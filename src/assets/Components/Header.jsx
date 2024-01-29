@@ -5,42 +5,42 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className="hidden w-[70%] lg:flex lg:fixed lg:top-12 items-center justify-evenly p-10 rounded-full bg-[#000] text-white">
+      <div className="hidden w-[70%] lg:flex lg:fixed lg:top-12 items-center justify-evenly p-10 rounded-full bg-[#000] ">
         <Link
-          className="text-lg focus:underline focus:text-[#ff8132] hover:text-[#ff8132] transition-all ease-in-out"
+          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
           to="/"
         >
           Home
         </Link>
         <Link
-          className="text-lg  focus:underline-offset-1 focus:text-[#ff8132] hover:text-[#ff8132] transition-all ease-in-out"
+          className="text-lg  focus:underline-offset-1 focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
           to="/about"
         >
           About
         </Link>
         <Link
-          className="text-lg focus:underline focus:text-[#ff8132] hover:text-[#ff8132] transition-all ease-in-out"
+          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
           to="/skills"
         >
           Skills
         </Link>
-        <h1 className="font-bold text-[#ff8132] text-2xl select-none">
+        <h1 className="font-bold text-[#ff8132] text-white text-2xl select-none">
           <span>•</span> Shubhankit jain <span>•</span>
         </h1>
         <Link
-          className="text-lg focus:underline focus:text-[#ff8132] hover:text-[#ff8132] transition-all ease-in-out"
+          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
           to="#"
         >
           Resume
         </Link>
         <Link
-          className="text-lg focus:underline focus:text-[#ff8132] hover:text-[#ff8132] transition-all ease-in-out"
+          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
           to="/projects"
         >
           Project
         </Link>
         <Link
-          className="text-lg focus:underline focus:text-[#ff8132] hover:text-[#ff8132] transition-all ease-in-out"
+          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
           to="/contact"
         >
           Contact

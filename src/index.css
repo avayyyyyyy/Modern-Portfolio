@@ -10,3 +10,15 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+html {
+  --cursor-color: #333;
+}
+
+html.dark-mode {
+  --cursor-color: #fff;
+}
+
+::selection{
+  background: #ff8312;
+}

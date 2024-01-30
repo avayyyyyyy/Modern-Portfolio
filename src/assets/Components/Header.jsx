@@ -57,7 +57,7 @@ const Header = () => {
       <div className="fixed top-0 z-30 flex items-center justify-between w-full p-4 bg-black lg:hidden">
         <Link
           to={"/"}
-          onClick={clicked}
+          onClick={() => setIsOpen(false)}
           className="font-bold text-[#ff8132] text-lg select-none"
         >
           <span>•</span> Shubhankit Jain <span>•</span>

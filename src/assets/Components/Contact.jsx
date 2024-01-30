@@ -11,9 +11,9 @@ const Contact = () => {
         backgroundSize: "100px 100px",
         backgroundColor: "#000000",
       }}
-      className="w-[100vw] h-[100vh] lg:h-screen lg:w-screen gap-8 m-auto flex flex-col justify-center lg:justify-center lg:items-center md:h-screen items-center rounded-b-[100px] bg-zinc-900"
+      className="w-[100vw] h-[100vh] lg:h-screen lg:w-screen  gap-8 m-auto flex flex-col justify-center lg:justify-center lg:items-center md:h-screen items-center rounded-b-[100px] bg-zinc-900"
     >
-      <div className="flex flex-col lg:w-screen lg:flex text-center items-center text-white lg:gap-6 gap-11">
+      <div className="flex flex-col lg:w-screen lg:flex lg:mt-8 text-center items-center text-white lg:gap-6 gap-11">
         <div className="lg:flex flex-col  lg:flex-row">
           <div className="lg:flex-col lg:flex">
             <div className="flex flex-col gap-12">
@@ -43,13 +43,13 @@ const Contact = () => {
         </div>
         <div className="w-full h-full flex justify-center">
           <img
-            src="../../public/576175762.webp"
-            className="w-60 h-64 rounded-full lg:w-80 lg:h-[20.6rem]"
+            src="https://i.pinimg.com/originals/b6/9b/4a/b69b4ab3268044c6ad1c10af7c07b888.png"
+            className="w-60 h-64 rounded-full lg:w-80 lg:h-80"
             alt=""
           />
         </div>
       </div>
-      <div className="flex gap-6 justify-center px-7 fixed bottom-8 text-white w-screen">
+      <div className="flex gap-6 justify-center px-7 fixed bottom-10 text-white w-screen">
         <Link className="hover:text-[#ff8312] transition-all ease-in-out duration-100">
           Instagram
         </Link>

@@ -7,7 +7,7 @@ const Introduction = () => {
     <div className="w-full m-auto gap-9 h-[100vh] lg:h-screen flex flex-col justify-center items-center rounded-b-[50px] lg:rounded-b-[100px] bg-white">
       <div>
         <div className="flex flex-col text-center">
-          <h1 className="text-[#6C6C6C] text-base md:textl lg:text-xl">
+          <h1 className="text-[#6C6C6C] lg:mt-7 text-base md:textl lg:text-xl">
             Holla👋, I’m{" "}
             <span className="font-bold text-black">Shubhankit Jain</span> and
             I’m a

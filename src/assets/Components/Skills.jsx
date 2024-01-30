@@ -10,11 +10,19 @@ const Skills = () => {
         backgroundSize: "100px 100px",
         backgroundColor: "#000000",
       }}
+<<<<<<< HEAD
       className="w-[100vw] gap-8 flex h-[100vh] flex-col justify-center lg:justify-center md:h-screen items-center rounded-b-[100px] bg-zinc-900"
     >
       <div>
         <h1 className="md:text-[3em] text-2xl md:mt-40 mt-80 h-fit lg:m-auto text-white lg:text-[5em] font-bold text-center">
           What can i do for you 💪🏻
+=======
+      className="w-[100vw] gap-8 flex flex-col justify-center items-center rounded-b-[100px] bg-zinc-900"
+    >
+      <div>
+        <h1 className="md:text-[4em] mt-28 text-2xl lg:h-screen lg:m-auto  text-white lg:text-[5em] font-bold text-center">
+          What can i do for you 😌
+>>>>>>> origin/main
         </h1>
       </div>
       <div className="flex flex-wrap p-8 gap-9 rounded-2xl">

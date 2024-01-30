@@ -14,7 +14,11 @@ This is a modern and responsive portfolio website built using React and Tailwind
 
 ## Demo
 
+<<<<<<< HEAD
 [Live Demo](https://your-portfolio-url.com)
+=======
+[Live Demo](https://modern-portfolio-new.vercel.app)
+>>>>>>> origin/main
 
 Include a link to the live demo of your portfolio website.
 

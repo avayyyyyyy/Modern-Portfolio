@@ -55,7 +55,11 @@ const Header = () => {
       </div>
 
       <div className="fixed top-0 z-30 flex items-center justify-between w-full p-4 bg-black lg:hidden">
-        <Link to={"/"} className="font-bold text-[#ff8132] text-lg select-none">
+        <Link
+          to={"/"}
+          onClick={clicked}
+          className="font-bold text-[#ff8132] text-lg select-none"
+        >
           <span>•</span> Shubhankit Jain <span>•</span>
         </Link>
         {isOpen ? (
@@ -79,30 +83,35 @@ const Header = () => {
         <Link
           className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
           to={"/about"}
+          onClick={clicked}
         >
           About
         </Link>
         <Link
           className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
           to={"/skills"}
+          onClick={clicked}
         >
           Skills
         </Link>
         <Link
           className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
           to={"/resume"}
+          onClick={clicked}
         >
           Resume
         </Link>
         <Link
           className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
           to={"/project"}
+          onClick={clicked}
         >
           Project
         </Link>
         <Link
           className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
           to={"/contact"}
+          onClick={clicked}
         >
           Contact
         </Link>

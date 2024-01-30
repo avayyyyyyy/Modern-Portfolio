@@ -80,6 +80,7 @@ const Header = () => {
           isOpen ? "top-10" : "top-[-1000px]"
         }  flex flex-col gap-4 py-4 text-center transition-all ease-in-out duration-150 text-white bg-black w-[100vw]  drop-shadow-md lg:hidden`}
       >
+        <hr className="h-[5px] bg-[#ff8312]" />
         <Link
           className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
           to={"/about"}

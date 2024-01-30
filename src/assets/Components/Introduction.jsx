@@ -8,7 +8,9 @@ const Introduction = () => {
       <div>
         <div className="flex flex-col text-center">
           <h1 className="text-[#6C6C6C] text-base md:textl lg:text-xl">
-            Holla👋, I’m <span className="font-bold text-black">Shubhankit Jain</span> and I’m a
+            Holla👋, I’m{" "}
+            <span className="font-bold text-black">Shubhankit Jain</span> and
+            I’m a
           </h1>
         </div>
         <div className="flex flex-col items-center gap-1">

@@ -12,7 +12,7 @@ const App = () => {
   window.addEventListener("mousemove", () => {});
 
   return (
-    <div className="bg-black m-auto flex flex-col justify-center items-center">
+    <div className="flex flex-col items-center justify-center m-auto bg-black">
       <BrowserRouter>
         <MouseCursor />
         <Header />

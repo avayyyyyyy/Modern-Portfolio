@@ -47,11 +47,11 @@ const Header = () => {
         </Link>
       </div>
 
-      <div className="fixed top-0 bg-black lg:hidden w-full flex items-center justify-between p-4">
-        <h1 className="font-bold text-[#ff8132] text-lg select-none">
+      <div className="fixed top-0 flex items-center justify-between w-full p-4 bg-black lg:hidden">
+        <Link to={"/"} className="font-bold text-[#ff8132] text-lg select-none">
           <span>•</span> Shubhankit Jain <span>•</span>
-        </h1>
-        <IoIosMenu className="text-white text-xl" />
+        </Link>
+        <IoIosMenu className="text-xl text-white" />
       </div>
     </>
   );

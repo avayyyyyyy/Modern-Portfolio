@@ -10,10 +10,10 @@ const Skills = () => {
         backgroundSize: "100px 100px",
         backgroundColor: "#000000",
       }}
-      className="w-[100vw] gap-8 flex h-[100vh] flex-col justify-center lg:justify-center md:h-screen items-center rounded-b-[100px] bg-zinc-900"
+      className="w-[100vw] gap-8 flex flex-col justify-center lg:justify-center md:h-screen items-center rounded-b-[100px] bg-zinc-900"
     >
       <div>
-        <h1 className="md:text-[3em] text-2xl md:mt-40 mt-80 h-fit lg:m-auto text-white lg:text-[5em] font-bold text-center">
+        <h1 className="md:text-[3em] text-3xl md:mt-40 mt-32 lg:m-auto text-white lg:text-[5em] font-bold text-center">
           What can i do for you 💪🏻
         </h1>
       </div>

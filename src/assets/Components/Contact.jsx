@@ -44,7 +44,7 @@ const Contact = () => {
         <div className="w-full h-full flex justify-center">
           <img
             src="https://i.pinimg.com/originals/b6/9b/4a/b69b4ab3268044c6ad1c10af7c07b888.png"
-            className="w-60 h-64 rounded-full lg:w-80 lg:h-80"
+            className="w-60 h-60 rounded-full lg:w-80 lg:h-80"
             alt=""
           />
         </div>

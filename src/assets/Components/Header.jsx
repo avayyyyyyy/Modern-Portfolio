@@ -7,7 +7,6 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   function clicked() {
-    console.log("clicked");
     setIsOpen(!isOpen);
   }
 
@@ -75,7 +74,7 @@ const Header = () => {
       <div
         className={`fixed ${
           isOpen ? "top-10" : "top-[-1000px]"
-        }  flex flex-col gap-4 py-4 text-center transition-all ease-in-out text-white bg-black w-[100vw]  drop-shadow-md lg:hidden`}
+        }  flex flex-col gap-4 py-4 text-center transition-all ease-in-out duration-150 text-white bg-black w-[100vw]  drop-shadow-md lg:hidden`}
       >
         <Link
           className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"

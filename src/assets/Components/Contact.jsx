@@ -22,7 +22,9 @@ const Contact = () => {
               </h1>
               <p className="w-[60vw] m-auto text-zinc-300">
                 Contact me for questions, collaboration, conversation, or just
-                saying hello. Thank you for stopping by here 🍀.
+                saying hello. <br />
+                <br />
+                Thank you for stopping by here 🍀.
               </p>
             </div>
             <div className="w-[100vw] mt-8 flex gap-5 justify-center underline px-8">

@@ -51,7 +51,7 @@ const Contact = () => {
           />
         </div>
       </div>
-      <div className="flex gap-6 justify-center px-7 fixed bottom-10 text-white w-screen">
+      <div className="flex gap-6 justify-center px-7 text-white w-screen">
         <Link className="hover:text-[#ff8312] transition-all ease-in-out duration-100">
           Instagram
         </Link>

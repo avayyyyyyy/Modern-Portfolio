@@ -16,13 +16,10 @@ const App = () => {
       <BrowserRouter>
         <MouseCursor />
         <Header />
-        <Routes>
-          <Route path={"/"} element={<Introduction />} />
-          <Route path={"/about"} element={<About />} />
-          <Route path={"/skills"} element={<Skills />} />
-          <Route path={"/projects"} element={<Projects />} />
-          <Route path={"/contact"} element={<Contact />} />
-        </Routes>
+        <Introduction />
+        <Skills />
+        <Projects />
+        <Contact />
       </BrowserRouter>
     </div>
   );

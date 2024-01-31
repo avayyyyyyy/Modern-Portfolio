@@ -6,19 +6,19 @@ const Skills = () => {
   const skills = [
     {
       id: 0,
-      img: "https://personal-website-raffialdo-bayu.vercel.app/_next/static/media/ui-ux-design.7f8252c2.svg",
+      img: <i className="ri-device-line"></i>,
       title: "Full-Stack Expertise",
       desc: "Proficient in MongoDB, Express.js, React.js, and Node.js, MERN stack developers excel in both frontend and backend technologies.",
     },
     {
       id: 1,
-      img: "https://personal-website-raffialdo-bayu.vercel.app/_next/static/media/graphic-design.81ae9670.svg",
+      img: <i className="ri-database-2-line"></i>,
       title: "Efficient Database Management",
       desc: "Skilled in MongoDB, they design and manage databases for scalable and flexible data models, ensuring optimal application performance.",
     },
     {
       id: 2,
-      img: "https://personal-website-raffialdo-bayu.vercel.app/_next/static/media/design-service.c8c074f8.svg",
+      img: <i className="ri-code-s-slash-line"></i>,
       title: "Real-Time Development Specialization",
       desc: "SMERN stack developers specialize in crafting responsive and dynamic web applications, leveraging React.js for interactive user interfaces and Node.js for server-side development.",
     },
@@ -69,11 +69,12 @@ const Skills = () => {
               key={e.id}
               className="flex flex-col items-center justify-center lg:w-96 md:justify-evenly w-[80%] m-auto p-4 text-black bg-white md:h-96 md:w-64 rounded-3xl md:mx-auto"
             >
-              <img
-                className="bg-[#C4C4C4] p-8 rounded-full mb-3 md:mb-0"
-                src={e.img}
+              <div
+                className="bg-[#ff8312] text-white text-4xl p-6 lg:p-8 rounded-full mb-3 md:mb-0"
                 alt=""
-              />
+              >
+                {e.img}
+              </div>
               <h1 className="my-3 font-bold text-xl text-center">{e.title}</h1>
               <p className="text-sm text-center lg:text-lg md:text-sm">
                 {e.desc}

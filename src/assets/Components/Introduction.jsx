@@ -5,7 +5,7 @@ const Introduction = () => {
   return (
     <div className="w-full m-auto gap-9 py-11 mt-20 lg:mt-0 lg:h-screen flex flex-col justify-center items-center rounded-b-[50px] lg:rounded-b-[100px] bg-white">
       <div>
-        <div className="flex flex-col text-center">
+        <div className="flex flex-col gap-9 text-center">
           <h1 className="text-[#6C6C6C] lg:mt-7 text-base md:textl lg:text-xl">
             Holla👋, I’m{" "}
             <span className="font-bold text-black">Shubhankit Jain</span> and
@@ -13,7 +13,7 @@ const Introduction = () => {
           </h1>
         </div>
         <div className="flex flex-col items-center">
-          <h1 className="text-[2.6em] lg:text-8xl md:text-7xl font-bold text-center">
+          <h1 className="text-[1.6em] mt-5 lg:text-8xl md:text-7xl font-bold text-center">
             Full Stack Developer
           </h1>
           <h1 className="text-center text-[2.6em] md:text-6xl lg:text-8xl">

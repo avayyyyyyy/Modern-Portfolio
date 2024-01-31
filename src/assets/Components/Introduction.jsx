@@ -12,7 +12,7 @@ const Introduction = () => {
       transition: {
         repeat: Infinity,
         repeatType: "mirror",
-        duration: 1500,
+        duration: 4500,
         ease: "linear",
       },
     },
@@ -72,6 +72,62 @@ const Introduction = () => {
           Game Developer Frontend Developer Backend Developer JavaScript
           Developer Python Developer Tech Innovator Technology Enthusiast Techie
           API Developer Cybersecurity Automation Specialist Blockchain Developer
+          Software Architect Code Specialist Mobile App Innovator Pixel Perfect
+          Developer Framework Developer Cryptocurrency Developer Machine
+          Learning Specialist Cross-Browser Compatibility Secure Coding Expert
+          Responsive Design Developer Blockchain Developer Specialist Automation
+          Expert API Code Guru Technology User Interface Developer Code Expert
+          Web Accessibility Developer Gaming Code Master Framework Specialist
+          API Developer Cybersecurity Code Wizard Software Specialist Mobile App
+          Specialist Technology Wizard Code Developer AI Developer Blockchain
+          Specialist Code Specialist Automation Developer API Expert Data
+          Visualization Specialist Gaming Specialist Code Engineer Code
+          Enthusiast Web Developer Software Engineer Full Stack Developer Game
+          Developer Frontend Developer Backend Developer JavaScript Developer
+          Python Developer Tech Innovator Technology Enthusiast Techie API
+          Developer Cybersecurity Automation Specialist Blockchain Developer
+          Software Architect Code Specialist Mobile App Innovator Pixel Perfect
+          Developer Framework Developer Cryptocurrency Developer Machine
+          Learning Specialist Cross-Browser Compatibility Secure Coding Expert
+          Responsive Design Developer Blockchain Developer Specialist Automation
+          Expert API Code Guru Technology User Interface Developer Code Expert
+          Web Accessibility Developer Gaming Code Master Framework Specialist
+          API Developer Cybersecurity Code Wizard Software Specialist Mobile App
+          Specialist Technology Wizard Code Developer AI Developer Blockchain
+          Specialist Code Specialist Automation Developer API Expert Data
+          Visualization Specialist Gaming Specialist Code Engineer Code
+          Enthusiast Web Developer Software Engineer Full Stack Developer Game
+          Developer Frontend Developer Backend Developer JavaScript Developer
+          Python Developer Tech Innovator Technology Enthusiast Techie API
+          Developer Cybersecurity Automation Specialist Blockchain Developer
+          Software Architect Code Specialist Mobile App Innovator Pixel Perfect
+          Developer Framework Developer Cryptocurrency Developer Machine
+          Learning Specialist Cross-Browser Compatibility Secure Coding Expert
+          Responsive Design Developer Blockchain Developer Specialist Automation
+          Expert API Code Guru Technology User Interface Developer Code Expert
+          Web Accessibility Developer Gaming Code Master Framework Specialist
+          API Developer Cybersecurity Code Wizard Software Specialist Mobile App
+          Specialist Technology Wizard Code Developer AI Developer Blockchain
+          Specialist Code Specialist Automation Developer API Expert Data
+          Visualization Specialist Gaming Specialist Code Engineer Code
+          Enthusiast Web Developer Software Engineer Full Stack Developer Game
+          Developer Frontend Developer Backend Developer JavaScript Developer
+          Python Developer Tech Innovator Technology Enthusiast Techie API
+          Developer Cybersecurity Automation Specialist Blockchain Developer
+          Software Architect Code Specialist Mobile App Innovator Pixel Perfect
+          Developer Framework Developer Cryptocurrency Developer Machine
+          Learning Specialist Cross-Browser Compatibility Secure Coding Expert
+          Responsive Design Developer Blockchain Developer Specialist Automation
+          Expert API Code Guru Technology User Interface Developer Code Expert
+          Web Accessibility Developer Gaming Code Master Framework Specialist
+          API Developer Cybersecurity Code Wizard Software Specialist Mobile App
+          Specialist Technology Wizard Code Developer AI Developer Blockchain
+          Specialist Code Specialist Automation Developer API Expert Data
+          Visualization Specialist Gaming Specialist Code Engineer Code
+          Enthusiast Web Developer Software Engineer Full Stack Developer Game
+          Developer Frontend Developer Backend Developer JavaScript Developer
+          Python Developer Tech Innovator Technology Enthusiast Techie API
+          Developer Cybersecurity Automation Specialist Blockchain Developer
           Software Architect Code Specialist Mobile App Innovator Pixel Perfect
           Developer Framework Developer Cryptocurrency Developer Machine
           Learning Specialist Cross-Browser Compatibility Secure Coding Expert

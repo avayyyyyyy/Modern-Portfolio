@@ -31,7 +31,7 @@ const Introduction = () => {
       <div className="flex justify-between items-center gap-[10px]">
         <a
           className="lg:py-5 lg:px-6 p-3 rounded-full text-center hover:bg-[#ff924f] text-white bg-[#ff8132] border-2 border-[#ff8132]"
-          href="/project"
+          href="/projects"
         >
           Check My <span className="font-bold">project</span> 🚀
         </a>

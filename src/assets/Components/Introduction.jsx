@@ -12,7 +12,7 @@ const Introduction = () => {
       transition: {
         repeat: Infinity,
         repeatType: "mirror",
-        duration: 1000,
+        duration: 1500,
         ease: "linear",
       },
     },
@@ -51,14 +51,14 @@ const Introduction = () => {
           Check My <span className="font-bold">project</span> 🚀
         </a>
         <a
-          className="lg:py-5 lg:px-6  z-40 flex items-center gap-2 p-3 rounded-full hover:bg-[#ffefe6] transition-all ease-in-out text-[#ff8132] border-2 border-[#ff8132] "
+          className="lg:py-5 lg:px-6 z-40 bg-white flex items-center gap-2 p-3 rounded-full hover:bg-[#ffefe6] transition-all ease-in-out text-[#ff8132] border-2 border-[#ff8132] "
           href="mailto:jabhi465@gmail.com"
         >
           Email me
           <MdOutlineMail />
         </a>
       </div>
-      <div className="absolute z-10 text-5xl lg:text-9xl lg:w-fit select-none text-zinc-100 bottom-0 font-bold">
+      <div className="absolute z-10 text-8xl lg:text-9xl lg:w-fit select-none text-zinc-100 bottom-0 font-bold">
         <motion.div
           style={{
             whiteSpace: "nowrap",

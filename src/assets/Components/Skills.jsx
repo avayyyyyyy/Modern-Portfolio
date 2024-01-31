@@ -67,15 +67,15 @@ const Skills = () => {
           {skills.map((e) => (
             <div
               key={e.id}
-              className="flex flex-col items-center justify-center lg:w-80 md:justify-evenly w-[80%] m-auto p-4 text-black bg-white md:h-96 md:w-64 rounded-3xl md:mx-auto"
+              className="flex flex-col items-center justify-center lg:w-96 md:justify-evenly w-[80%] m-auto p-4 text-black bg-white md:h-96 md:w-64 rounded-3xl md:mx-auto"
             >
               <img
                 className="bg-[#C4C4C4] p-8 rounded-full mb-3 md:mb-0"
                 src={e.img}
                 alt=""
               />
-              <p className="my-3 font-bold text-center">{e.title}</p>
-              <h1 className="text-sm text-center md:text-sm">{e.desc}</h1>
+              <h1 className="my-3 font-bold text-xl text-center">{e.title}</h1>
+              <p className="text-sm text-center lg:text-lg md:text-sm">{e.desc}</p>
             </div>
           ))}
         </div>

@@ -13,9 +13,9 @@ const Projects = () => {
 
   return (
     <>
-      <div className="lg:w-screen lg:h-screen w-[100vw]  gap-5 lg:pt-52 mt-5 lg:text-left m-auto bg-white text-black px-2 py-12">
-        <div className="lg:flex lg:justify-between flex flex-col lg:flex-row justify-between items-center gap-5">
-          <h1 className="lg:tezxt-8xl mt-3 md:text-5xl font-bold text-4xl">
+      <div className="lg:w-screen lg:h-screen w-[100vw]  gap-5 lg:pt-52 sm:mt-5  lg:mt-0 lg:text-left m-auto bg-white text-black px-2 py-12">
+        <div className="lg:flex lg:justify-between flex flex-col lg:px-7 lg:flex-row justify-between items-center gap-5">
+          <h1 className="lg:tezxt-8xl mt-3 lg:mt-0 md:text-5xl font-bold text-4xl">
             Featured Projects
           </h1>
           <div className="p-2 rounded-full justify-center border-2 flex gap-3 w-fit border-[#ff8312]">

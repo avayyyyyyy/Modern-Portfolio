@@ -20,8 +20,8 @@ const Contact = () => {
               <h1 className="md:text-[3em] text-4xl lg:m-auto text-white lg:text-[5em] font-bold text-center">
                 Let’s start <span className="">project</span> together?
               </h1>
-              <p className="w-[60vw] m-auto text-zinc-300">
-                Contact me for questions, collaboration, conversation, or just
+              <p className=" m-auto text-zinc-300">
+                Contact me for questions, collaboration, <br /> conversation, or just
                 saying hello. <br />
                 <br />
                 Thank you for stopping by here 🍀.

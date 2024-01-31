@@ -59,7 +59,7 @@ const Skills = () => {
         className="w-full gap-8 flex flex-col lg:py-32 lg:gap-20 lg:rounded-b-[100px] justify-center items-center bg-zinc-900"
       >
         <div>
-          <h1 className="md:text-[3em] text-4xl rounded-b-[50px] lg:rounded-b-[100px] mt-12 lg:m-auto text-white lg:text-[5em] font-bold text-center">
+          <h1 className="md:text-[3em] text-[2rem] rounded-b-[50px] lg:rounded-b-[100px] mt-12 lg:m-auto text-white lg:text-[5em] font-bold text-center">
             What can i do for you 💪🏻
           </h1>
         </div>

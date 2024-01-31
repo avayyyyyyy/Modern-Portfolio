@@ -58,7 +58,7 @@ const Header = () => {
         <Link
           to={"/"}
           onClick={() => setIsOpen(false)}
-          className="font-bold text-[#ff8132] text-lg select-none"
+          className="font-bold text-[#fff] text-lg select-none"
         >
           <span>•</span> Shubhankit Jain <span>•</span>
         </Link>

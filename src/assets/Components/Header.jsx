@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="hidden w-[70%] lg:flex lg:fixed lg:top-12 items-center justify-evenly p-10 rounded-full bg-[#000] ">
+      <div className="hidden w-[70%] z-50 lg:flex lg:fixed lg:top-12 items-center justify-evenly p-10 rounded-full bg-[#000] ">
         <Link
           className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
           to="/"

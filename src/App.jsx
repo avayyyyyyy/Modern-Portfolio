@@ -1,7 +1,7 @@
 import React from "react";
 import Introduction from "./assets/Components/Introduction";
 import Header from "./assets/Components/Header";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import About from "./assets/Components/About";
 import Projects from "./assets/Components/Projects";
 import Skills from "./assets/Components/Skills";
@@ -17,6 +17,7 @@ const App = () => {
         <MouseCursor />
         <Header />
         <Introduction />
+        <About />
         <Skills />
         <Projects />
         <Contact />

@@ -60,7 +60,7 @@ const Skills = () => {
       >
         <div>
           <h1 className="md:text-[3em] text-[2rem] rounded-b-[50px] lg:rounded-b-[100px] mt-12 lg:m-auto text-white lg:text-[5em] font-bold text-center">
-            What can i do for you 💪🏻
+            What can i do for you
           </h1>
         </div>
         <div className="flex flex-wrap p-8 pb-24 lg:p-2 gap-11 lg:gap-24 rounded-2xl">
@@ -75,7 +75,9 @@ const Skills = () => {
                 alt=""
               />
               <h1 className="my-3 font-bold text-xl text-center">{e.title}</h1>
-              <p className="text-sm text-center lg:text-lg md:text-sm">{e.desc}</p>
+              <p className="text-sm text-center lg:text-lg md:text-sm">
+                {e.desc}
+              </p>
             </div>
           ))}
         </div>

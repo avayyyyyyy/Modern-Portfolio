@@ -54,7 +54,7 @@ const Header = () => {
         </Link>
       </div>
 
-      <div className="fixed top-0 z-30 flex items-center justify-between w-full p-4 bg-black lg:hidden">
+      <div className="fixed top-0 z-[110] flex items-center justify-between w-full p-4 bg-black lg:hidden">
         <Link
           to={"/"}
           onClick={() => setIsOpen(false)}
@@ -78,7 +78,7 @@ const Header = () => {
       <div
         className={`fixed ${
           isOpen ? "top-10" : "top-[-1000px]"
-        }  flex flex-col gap-4 py-4 text-center transition-all ease-in-out duration-150 text-white bg-black w-[100vw]  drop-shadow-md lg:hidden`}
+        }  flex flex-col gap-4 py-4 z-[100] text-center transition-all ease-in-out duration-150 text-white bg-black w-[100vw]  drop-shadow-md lg:hidden`}
       >
         <hr className="h-[5px] bg-[#ff8312]" />
         <Link

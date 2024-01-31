@@ -3,14 +3,6 @@ import React, { useEffect, useState } from "react";
 const Projects = () => {
   let [isActive, setIsActive] = useState(false);
 
-  useEffect(() => {
-    if (isActive) {
-      console.log("case Study");
-    } else {
-      console.log("Exploration");
-    }
-  }, [isActive]);
-
   return (
     <>
       <div className="lg:w-screen lg:h-screen w-[100vw] lg:rounded-b-[100px] rounded-b-[50px]  gap-5 lg:pt-52 lg:mt-0 lg:py-0 lg:text-left m-auto bg-white text-black px-2 py-12">
@@ -27,7 +19,7 @@ const Projects = () => {
                   : "bg-[#ff8132] text-white"
               } `}
             >
-              Exploration
+              Frontend
             </div>
             <div
               onClick={() => setIsActive(!isActive)}
@@ -37,7 +29,7 @@ const Projects = () => {
                   : "bg-[#fff] text-black hover:bg-[#ffe8da]"
               } lg:px-6 p-3 rounded-full p-auto `}
             >
-              Case Study
+              Full Stack
             </div>
           </div>
         </div>

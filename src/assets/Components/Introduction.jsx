@@ -58,7 +58,7 @@ const Introduction = () => {
           <MdOutlineMail />
         </a>
       </div>
-      <div className="absolute z-10 mb-3 lg:mb-4 h-fit text-8xl lg:text-9xl lg:w-fit select-none text-zinc-100 bottom-0 font-bold">
+      <div className="absolute z-10 mb-1 h-fit text-8xl lg:text-9xl lg:w-fit select-none text-zinc-100 bottom-0 font-bold">
         <motion.div
           style={{
             whiteSpace: "nowrap",

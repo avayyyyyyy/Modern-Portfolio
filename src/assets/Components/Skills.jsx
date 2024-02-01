@@ -20,7 +20,7 @@ const Skills = () => {
       id: 2,
       img: <i className="ri-code-s-slash-line"></i>,
       title: "Real-Time Development Specialization",
-      desc: "SMERN stack developers specialize in crafting responsive and dynamic web applications, leveraging React.js for interactive user interfaces and Node.js for server-side development.",
+      desc: "MERN stack developers specialize in crafting responsive and dynamic web applications, leveraging React.js for interactive user interfaces and Node.js for server-side development.",
     },
   ];
 

@@ -54,7 +54,7 @@ const Header = () => {
         </Link>
       </div>
 
-      <div className="fixed top-0 z- flex items-center justify-between w-full p-4 bg-black lg:hidden">
+      <div className="fixed top-0 z-[1000] flex items-center justify-between w-full p-4 bg-black lg:hidden">
         <Link
           to={"/"}
           onClick={() => setIsOpen(false)}

@@ -53,7 +53,7 @@ const Skills = () => {
   };
 
   return (
-    <div id="skill" className="bg-white w-screen">
+    <div id="skills" className="bg-white w-screen">
       <main
         style={getContainerStyles()}
         className="w-full gap-8 flex flex-col lg:py-32 lg:gap-20 lg:rounded-b-[100px] justify-center items-center bg-zinc-900"

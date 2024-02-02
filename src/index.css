@@ -13,6 +13,7 @@
 
 html {
   --cursor-color: #333;
+  scroll-behavior: smooth;
 }
 
 html.dark-mode {

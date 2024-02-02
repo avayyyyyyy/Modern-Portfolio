@@ -4,6 +4,45 @@ import { Link } from "react-router-dom";
 import { RxCross2 } from "react-icons/rx";
 
 const Header = () => {
+  const links = [
+    {
+      id: 0,
+      name: "Home",
+      link: "#home",
+    },
+    {
+      id: 1,
+      name: "About",
+      link: "#about",
+    },
+    {
+      id: 3,
+      name: "Skills",
+      link: "#skills",
+    },
+    {
+      id: 4,
+      name: "Resume",
+      link: "#resume",
+    },
+    {
+      id: 5,
+      name: "Project",
+      link: "#project",
+    },
+    {
+      id: 6,
+      name: "Contact",
+      link: "#contact",
+    },
+  ];
+
+  const linkFirst = links.splice(0, links.length / 2);
+  const linkSecond = links.splice(linkFirst);
+
+  console.log("linkFirst", linkFirst);
+  console.log("linkSecond", linkSecond);
+
   const [isOpen, setIsOpen] = useState(false);
 
   function clicked() {
@@ -13,45 +52,31 @@ const Header = () => {
   return (
     <>
       <div className="hidden w-[70%] z-50 lg:flex lg:fixed lg:top-12 items-center justify-evenly p-10 rounded-full bg-[#000] ">
-        <Link
-          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
-          to="/"
-        >
-          Home
-        </Link>
-        <Link
-          className="text-lg  focus:underline-offset-1 focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
-          to="/about"
-        >
-          About
-        </Link>
-        <Link
-          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
-          to="/skills"
-        >
-          Skills
-        </Link>
+        {linkFirst.map((e) => {
+          return (
+            <a
+              key={e.id}
+              className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
+              href={e.link}
+            >
+              {e.name}
+            </a>
+          );
+        })}
         <h1 className="text-2xl font-bold text-white select-none">
           <span>•</span> Shubhankit jain <span>•</span>
         </h1>
-        <Link
-          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
-          to="#"
-        >
-          Resume
-        </Link>
-        <Link
-          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
-          to="/projects"
-        >
-          Project
-        </Link>
-        <Link
-          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
-          to="/contact"
-        >
-          Contact
-        </Link>
+        {linkSecond.map((e) => {
+          return (
+            <a
+              key={e.id}
+              className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
+              href={e.link}
+            >
+              {e.name}
+            </a>
+          );
+        })}
       </div>
 
       <div className="fixed top-0 z-[1000] flex items-center justify-between w-full p-4 bg-black lg:hidden">

@@ -19,7 +19,10 @@ const Introduction = () => {
   };
 
   return (
-    <div className="w-full relative overflow-x-hidden overflow-y-hidden m-auto gap-9 py-11 mt-14 lg:mt-0 lg:h-screen flex flex-col justify-center items-center rounded-b-[50px] lg:rounded-b-[100px] bg-white">
+    <div
+      id="home"
+      className="w-full relative overflow-x-hidden overflow-y-hidden m-auto gap-9 py-11 mt-14 lg:mt-0 lg:h-screen flex flex-col justify-center items-center rounded-b-[50px] lg:rounded-b-[100px] bg-white"
+    >
       <div className="">
         <div className="flex flex-col gap-9 text-center">
           <h1 className="text-[#6C6C6C] lg:mt-7 text-base md:textl lg:text-xl">

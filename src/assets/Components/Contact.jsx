@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <div
+      id="contact"
       style={{
         borderRadius: "0 0 10px 10px",
         backgroundImage:
@@ -21,8 +22,8 @@ const Contact = () => {
                 Let’s start <span className="">project</span> together?
               </h1>
               <p className=" m-auto text-zinc-300">
-                Contact me for questions, collaboration, <br /> conversation, or just
-                saying hello. <br />
+                Contact me for questions, collaboration, <br /> conversation, or
+                just saying hello. <br />
                 <br />
                 Thank you for stopping by here 🍀.
               </p>

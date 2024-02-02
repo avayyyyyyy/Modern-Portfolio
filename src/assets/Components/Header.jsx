@@ -106,41 +106,30 @@ const Header = () => {
         }  flex flex-col gap-4 py-4 z-[100] text-center transition-all ease-in-out duration-150 text-white bg-black w-[100vw]  drop-shadow-md lg:hidden`}
       >
         <hr className="h-[5px] bg-[#ff8312]" />
-        <Link
-          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
-          to={"/about"}
-          onClick={clicked}
-        >
-          About
-        </Link>
-        <Link
-          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
-          to={"/skills"}
-          onClick={clicked}
-        >
-          Skills
-        </Link>
-        <Link
-          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
-          to={"/resume"}
-          onClick={clicked}
-        >
-          Resume
-        </Link>
-        <Link
-          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
-          to={"/project"}
-          onClick={clicked}
-        >
-          Project
-        </Link>
-        <Link
-          className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
-          to={"/contact"}
-          onClick={clicked}
-        >
-          Contact
-        </Link>
+        {linkFirst.map((e) => {
+          return (
+            <a
+              key={e.id}
+              className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
+              href={e.link}
+              onClick={clicked}
+            >
+              {e.name}
+            </a>
+          );
+        })}
+        {linkSecond.map((e) => {
+          return (
+            <a
+              key={e.id}
+              className="text-lg focus:underline focus:text-[#ff8132] text-zinc-400 hover:text-[#ff8132] transition-all ease-in-out"
+              href={e.link}
+              onClick={clicked}
+            >
+              {e.name}
+            </a>
+          );
+        })}
       </div>
     </>
   );

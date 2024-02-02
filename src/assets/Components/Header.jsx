@@ -40,9 +40,6 @@ const Header = () => {
   const linkFirst = links.splice(0, links.length / 2);
   const linkSecond = links.splice(linkFirst);
 
-  console.log("linkFirst", linkFirst);
-  console.log("linkSecond", linkSecond);
-
   const [isOpen, setIsOpen] = useState(false);
 
   function clicked() {

@@ -59,7 +59,10 @@ const Contact = () => {
         <Link className="hover:text-[#ff8312] transition-all ease-in-out duration-100">
           LinkedIn
         </Link>
-        <Link className="hover:text-[#ff8312] transition-all ease-in-out duration-100">
+        <Link
+          to={"https://github.com/avayyyyyyy/"}
+          className="hover:text-[#ff8312] transition-all ease-in-out duration-100"
+        >
           GitHub
         </Link>
         <Link className="hover:text-[#ff8312] transition-all ease-in-out duration-100">

@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -30,7 +34,7 @@ const Contact = () => {
             </div>
             <div className="w-[100vw] mt-8 flex gap-5 justify-center underline px-8">
               <Link
-                className="hover:text-[#ff8312] transition-all ease-in-out duration-100"
+                className="hover:text-[#ff8312] transition-all ease-in-out  duration-100"
                 to={"mailto:jabhi465@gmail.com"}
               >
                 jabhi465@gmail.com
@@ -53,20 +57,20 @@ const Contact = () => {
         </div>
       </div>
       <div className="flex gap-6 justify-center px-7 text-white w-screen">
-        <Link className="hover:text-[#ff8312] transition-all ease-in-out duration-100">
-          Instagram
+        <Link className="hover:text-[#ff8312] transition-all ease-in-out border border-zinc-700 text-xl p-2 rounded-md duration-100">
+          <FaInstagram />
         </Link>
-        <Link className="hover:text-[#ff8312] transition-all ease-in-out duration-100">
-          LinkedIn
+        <Link className="hover:text-[#ff8312] transition-all ease-in-out border border-zinc-700 text-xl p-2 rounded-md duration-100">
+          <FaLinkedin />
         </Link>
         <Link
           to={"https://github.com/avayyyyyyy/"}
-          className="hover:text-[#ff8312] transition-all ease-in-out duration-100"
+          className="hover:text-[#ff8312] transition-all ease-in-out border border-zinc-700 text-xl p-2 rounded-md duration-100"
         >
-          GitHub
+          <FaGithub />
         </Link>
-        <Link className="hover:text-[#ff8312] transition-all ease-in-out duration-100">
-          x
+        <Link className="hover:text-[#ff8312] transition-all ease-in-out border border-zinc-700 text-xl p-2 rounded-md duration-100">
+          <FaXTwitter />
         </Link>
       </div>
     </div>

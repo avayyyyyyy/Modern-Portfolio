@@ -57,19 +57,32 @@ const Contact = () => {
         </div>
       </div>
       <div className="flex gap-6 justify-center px-7 text-white w-screen">
-        <Link className="hover:text-[#ff8312] transition-all ease-in-out border border-zinc-700 text-xl p-2 rounded-md duration-100">
+        <Link
+          to={"https://www.instagram.com/arey.abhi/"}
+          target="_blank"
+          className="hover:text-[#ff8312] transition-all ease-in-out border border-zinc-700 text-xl p-2 rounded-md duration-100"
+        >
           <FaInstagram />
         </Link>
-        <Link className="hover:text-[#ff8312] transition-all ease-in-out border border-zinc-700 text-xl p-2 rounded-md duration-100">
+        <Link
+          to={"https://www.linkedin.com/in/shubhcodes/"}
+          target="_blank"
+          className="hover:text-[#ff8312] transition-all ease-in-out border border-zinc-700 text-xl p-2 rounded-md duration-100"
+        >
           <FaLinkedin />
         </Link>
         <Link
           to={"https://github.com/avayyyyyyy/"}
+          target="_blank"
           className="hover:text-[#ff8312] transition-all ease-in-out border border-zinc-700 text-xl p-2 rounded-md duration-100"
         >
           <FaGithub />
         </Link>
-        <Link className="hover:text-[#ff8312] transition-all ease-in-out border border-zinc-700 text-xl p-2 rounded-md duration-100">
+        <Link
+          to={"https://twitter.com/shubhcodes"}
+          target="_blank"
+          className="hover:text-[#ff8312] transition-all ease-in-out border border-zinc-700 text-xl p-2 rounded-md duration-100"
+        >
           <FaXTwitter />
         </Link>
       </div>

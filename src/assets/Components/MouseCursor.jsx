@@ -3,7 +3,7 @@ import AnimatedCursor from "react-animated-cursor";
 
 const MouseCursor = () => {
   return (
-    <div className="z-[500] sm:hidden lg:flex mb:fixed mb:top-[-100px] App">
+    <div className="z-[500] cursor-pointer lg:flex mb:fixed mb:top-[-100px] App">
       <AnimatedCursor
         innerSize={10}
         outerSize={35}

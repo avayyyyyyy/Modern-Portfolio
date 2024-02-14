@@ -39,7 +39,7 @@ const Projects = () => {
           </div>
         </div>
         {isActive ? (
-          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white max-w-md mx-auto mt-11 shadow-sm">
+          <article className="overflow-hidden rounded-lg hover:shadow-lg transition-all ease-in-out border border-gray-100 bg-white max-w-md mx-auto mt-11 shadow-sm">
             <img
               alt=""
               src="/Abhi-saas.webp"

@@ -1,6 +1,4 @@
 import { useState } from "react";
-import { FaGithub } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const Projects = () => {
   let [isActive, setIsActive] = useState(true);
@@ -72,11 +70,12 @@ const Projects = () => {
                 Created a complete Full Stack SAAS application using the latest
                 Modern Framework called NextJs 14
               </p>
-              <Link
+              <a
                 href="https://github.com/avayyyyyyy/abhi-saas"
                 target="_blank"
                 type="button"
                 className="text-white bg-zinc-900 hover:bg-zinc-800 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 mb-2"
+                rel="noreferrer"
               >
                 <svg
                   className="w-4 h-4 me-2"
@@ -92,12 +91,13 @@ const Projects = () => {
                   />
                 </svg>
                 Code
-              </Link>
-              <Link
+              </a>
+              <a
                 href="https://abhi-saas.vercel.app"
                 target="_blank"
                 type="button"
                 className="text-white bg-blue-600 hover:bg-blue-600/90 focus:ring-4 focus:outline-none focus:ring-[#4285F4]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 mb-2"
+                rel="noreferrer"
               >
                 <svg
                   className="w-4 h-4 me-2"
@@ -113,7 +113,7 @@ const Projects = () => {
                   />
                 </svg>
                 Live Demo
-              </Link>
+              </a>
             </div>
           </article>
         ) : (

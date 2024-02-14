@@ -29,7 +29,7 @@ const Contact = () => {
                 Contact me for questions, collaboration, <br /> conversation, or
                 just saying hello. <br />
                 <br />
-                Thank you for stopping by here 🍀.
+                Thank you for stopping by here 🥹🫶🏻.
               </p>
             </div>
             <div className="w-[100vw] mt-8 flex gap-5 justify-center underline px-8">

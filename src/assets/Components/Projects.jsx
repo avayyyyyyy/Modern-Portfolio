@@ -42,7 +42,7 @@ const Projects = () => {
           <article className="overflow-hidden rounded-lg border border-gray-100 bg-white max-w-md mx-auto mt-11 shadow-sm">
             <img
               alt=""
-              src="/Abhi-saas.png"
+              src="/Abhi-saas.webp"
               className="h-56 w-full object-cover"
             />
 

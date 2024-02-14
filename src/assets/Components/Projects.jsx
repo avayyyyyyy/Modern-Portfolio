@@ -7,7 +7,7 @@ const Projects = () => {
     <>
       <div
         id="project"
-        className="lg:w-screen lg:py-20 w-[100vw] items-center lg:rounded-b-[100px] rounded-b-[50px]  gap-5 lg:pt-52 lg:mt-0 lg:text-left m-auto bg-white text-black px-2 py-12"
+        className="lg:w-screen lg:py-20 w-[100vw] items-center lg:rounded-b-[100px] rounded-b-[50px]  gap-5  lg:mt-0 lg:text-left m-auto bg-white text-black px-2 py-12"
       >
         <div className="lg:flex lg:justify-between flex  flex-col lg:px-7 lg:flex-row justify-between items-center gap-5">
           <h1 className="lg:tezxt-8xl mt-9 lg:mt-0 md:text-5xl font-bold text-4xl">

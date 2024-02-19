@@ -19,7 +19,3 @@ html {
 html.dark-mode {
   --cursor-color: #fff;
 }
-
-::selection {
-  background: #ff8312;
-}

@@ -58,7 +58,7 @@ const Projects = () => {
           </div>
         </div>
         {isActive ? (
-          <div className="flex justify-center">
+          <div className="flex justify-center flex-wrap">
             {data.map((e, i) => (
               <>
                 <article

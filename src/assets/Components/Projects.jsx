@@ -12,6 +12,7 @@ const Projects = () => {
         "Created a complete Full Stack SAAS application using the latest Modern Framework called NextJs 14",
       Github: "https://github.com/avayyyyyyy/abhi-saas",
       LiveLink: "https://abhi-saas.vercel.app/",
+      colorTheme: "#000",
     },
     {
       image: "/Issue-Tracker.webp",
@@ -21,6 +22,7 @@ const Projects = () => {
         "Your all-in-one solution for efficiently tracking, organizing, and resolving tasks.",
       Github: "https://github.com/avayyyyyyy/issue-tracker",
       LiveLink: "https://issue-tracker-sigma-puce.vercel.app/",
+      colorTheme: "#000",
     },
   ];
 
@@ -78,12 +80,12 @@ const Projects = () => {
                       </h3>
                     </a>
                     <div className="space-x-2">
-                      {e.techStack.map((e, i) => (
+                      {e.techStack.map((j, i) => (
                         <span
                           key={i}
-                          className="whitespace-nowrap rounded-full bg-blue-600 px-2.5 py-0.5 text-xs text-white"
+                          className={`whitespace-nowrap rounded-full bg-[${e.colorTheme}] px-2.5 py-0.5 text-xs text-white`}
                         >
-                          {e}
+                          {j}
                         </span>
                       ))}
                     </div>

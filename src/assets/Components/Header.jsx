@@ -23,10 +23,10 @@ const Header = () => {
     {
       id: 4,
       name: "Resume",
-      link: "#resume",
+      link: "https://drive.google.com/file/d/1iRQy-O9x7cb6an9GTv2w9ZbkqZ4xwn8F/view?usp=drivesdk",
     },
     {
-      id: 5,
+      id: 5,  
       name: "Project",
       link: "#project",
     },

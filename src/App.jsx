@@ -1,4 +1,3 @@
-import React from "react";
 import Introduction from "./assets/Components/Introduction";
 import Header from "./assets/Components/Header";
 import { BrowserRouter } from "react-router-dom";
@@ -7,10 +6,9 @@ import Projects from "./assets/Components/Projects";
 import Skills from "./assets/Components/Skills";
 import Contact from "./assets/Components/Contact";
 import MouseCursor from "./assets/Components/MouseCursor";
+import Resume from "./assets/Components/Resume";
 
 const App = () => {
-  window.addEventListener("mousemove", () => {});
-
   return (
     <div className="flex flex-col items-center justify-center m-auto bg-black">
       <BrowserRouter>
@@ -18,6 +16,7 @@ const App = () => {
         <Header />
         <Introduction />
         <About />
+        <Resume />
         <Skills />
         <Projects />
         <Contact />

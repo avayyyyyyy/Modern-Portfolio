@@ -7,6 +7,7 @@ import Skills from "./assets/Components/Skills";
 import Contact from "./assets/Components/Contact";
 import MouseCursor from "./assets/Components/MouseCursor";
 import Resume from "./assets/Components/Resume";
+import Footer from "./assets/Components/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Skills />
         <Projects />
         <Contact />
+        <Footer />
       </BrowserRouter>
     </div>
   );

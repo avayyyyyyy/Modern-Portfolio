@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Projects = () => {
-  let [isActive, setIsActive] = useState(false);
+  let [isActive, setIsActive] = useState(true);
 
   const data = [
     {
@@ -61,16 +61,6 @@ const Projects = () => {
           <div className="p-2 rounded-full justify-center border-2 flex gap-3 w-fit border-[#ff8312]">
             <div
               onClick={() => setIsActive(!isActive)}
-              className={`lg:py-5 lg:px-6 p-3 font-semibold rounded-full text-center ${
-                isActive
-                  ? "bg-[#fff] text-black hover:bg-[#ffe8da] "
-                  : "bg-[#ff8132] text-white"
-              } `}
-            >
-              Frontend
-            </div>
-            <div
-              onClick={() => setIsActive(!isActive)}
               className={`lg:py-5 font-semibold ${
                 isActive
                   ? "bg-[#ff8132] text-white"
@@ -78,6 +68,16 @@ const Projects = () => {
               } lg:px-6 p-3 rounded-full p-auto `}
             >
               Full Stack
+            </div>
+            <div
+              onClick={() => setIsActive(!isActive)}
+              className={`lg:py-5 lg:px-6 p-3 font-semibold rounded-full text-center ${
+                isActive
+                  ? "bg-[#fff] text-black hover:bg-[#ffe8da] "
+                  : "bg-[#ff8132] text-white"
+              } `}
+            >
+              Frontend
             </div>
           </div>
         </div>

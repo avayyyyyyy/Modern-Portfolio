@@ -28,20 +28,20 @@ const data = [
 
 function ProjectsNew() {
   return (
-    <div className="max-w-[60vw] mb-20 ">
+    <div className="lg:max-w-[60vw] max-w-[80vw] mb-1  lg:mb-20 ">
       <div className="flex flex-col items-center mb-10  justify-center">
         <div className="text-sm px-3 py-1  w-fit bg-zinc-200 rounded-md mb-4  text-zinc-800">
           My Projects
         </div>
-        <h1 className="text-6xl font-semibold mb-4 ">
+        <h1 className="lg:text-6xl text-4xl  text-center  font-semibold mb-4 ">
           Check out my latest work
         </h1>
-        <p className="text-lg text-zinc-600 mx-10  text-center">
+        <p className="lg:text-lg text-sm  text-zinc-600 mx-10  text-center">
           I've worked on a variety of projects, from simple websites to complex
           web applications. Here are a few of my favorites.
         </p>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="grid md:grid-cols-2 grid-cols-1 ">
         {data.map((e) => (
           <ProjectCard
             key={e.LiveLink}

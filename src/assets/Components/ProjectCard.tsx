@@ -54,13 +54,13 @@ function ProjectCard({
           <div className="flex gap-2">
             <div className="bg-black flex gap-2 items-center  text-white w-fit px-3 py-1.5  rounded-md  text-xs">
               {" "}
-              <a className="flex gap-2" href={deployed}>
+              <a target="_blank" className="flex gap-2" href={deployed}>
                 <BiGlobe size={16} /> Link
               </a>
             </div>
             <div className="bg-black flex gap-2 items-center  text-white w-fit px-3 py-1.5  rounded-md  text-xs">
               {" "}
-              <a className="flex gap-2" href={github}>
+              <a target="_blank" className="flex gap-2" href={github}>
                 {" "}
                 <BiGlobe size={16} /> Code
               </a>

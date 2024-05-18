@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { IoIosMenu } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { RxCross2 } from "react-icons/rx";

@@ -1,26 +1,19 @@
 import Introduction from "./assets/Components/Introduction";
-import Header from "./assets/Components/Header";
 import { BrowserRouter } from "react-router-dom";
-import About from "./assets/Components/About";
-import Projects from "./assets/Components/Projects";
-import Skills from "./assets/Components/Skills";
-import Contact from "./assets/Components/Contact";
-import MouseCursor from "./assets/Components/MouseCursor";
-import Resume from "./assets/Components/Resume";
 import Footer from "./assets/Components/Footer";
+import TextReveal from "./assets/Components/TextReveal";
+import ProjectsNew from "./assets/Components/ProjectsNew";
 
 const App = () => {
   return (
-    <div className="flex flex-col items-center justify-center m-auto bg-black">
+    <div className="flex flex-col items-center justify-center m-auto">
       <BrowserRouter>
-        <MouseCursor />
-        <Header />
         <Introduction />
-        <About />
-        <Resume />
-        <Skills />
-        <Projects />
-        <Contact />
+        <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
+        <TextReveal />
+        <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
+        <ProjectsNew />
+        <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
         <Footer />
       </BrowserRouter>
     </div>

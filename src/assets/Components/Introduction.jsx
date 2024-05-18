@@ -1,11 +1,11 @@
-import React from "react";
-import { MdOutlineMail } from "react-icons/md";
 import { motion } from "framer-motion";
+import Meteors from "./magicui/meteors";
+import ShimmerButton from "./magicui/shimmer-button";
 
 const Introduction = () => {
   const sliderVariants = {
     initial: {
-      x: "50%",
+      x: "40%",
     },
     animate: {
       x: "-100%",
@@ -21,8 +21,10 @@ const Introduction = () => {
   return (
     <div
       id="home"
-      className="w-full relative overflow-x-hidden overflow-y-hidden m-auto gap-9 py-11 mt-14 lg:mt-0 lg:h-screen flex flex-col justify-center items-center rounded-b-[50px] lg:rounded-b-[100px] bg-white"
+      className="w-full relative overflow-x-hidden overflow-y-hidden m-auto gap-9 py-11 mt-14 lg:mt-0 lg:h-screen flex flex-col justify-center items-center  bg-white"
     >
+      <Meteors number={30} />
+
       <div className="">
         <div className="flex flex-col gap-9 text-center">
           <h1 className="text-[#6C6C6C] lg:mt-7 text-base md:textl lg:text-xl">
@@ -47,21 +49,13 @@ const Introduction = () => {
         </p>
       </div>
       <div className="flex justify-between items-center gap-[10px]">
-        <a
-          className="lg:py-5 z-40 lg:px-6 p-3 rounded-full text-center hover:bg-[#ff924f] text-white bg-[#ff8132] border-2 border-[#ff8132]"
-          href="#project"
-        >
-          Check My <span className="font-bold">project</span> 🚀
-        </a>
-        <a
-          className="lg:py-5 lg:px-6 z-40 bg-white flex items-center gap-2 p-3 rounded-full hover:bg-[#ffefe6] transition-all ease-in-out text-[#ff8132] border-2 border-[#ff8132] "
-          href="mailto:jabhi465@gmail.com"
-        >
-          Email me
-          <MdOutlineMail />
-        </a>
+        <ShimmerButton className="shadow-2xl">
+          <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+            <a href="#">Connect with me 🚀</a>
+          </span>
+        </ShimmerButton>
       </div>
-      <div className="absolute z-10 mb-1 h-fit text-8xl lg:text-9xl lg:w-fit select-none text-zinc-100 bottom-0 font-bold">
+      <div className="absolute z-10 h-fit text-8xl lg:text-9xl lg:w-fit select-none text-zinc-100 bottom-0 font-bold">
         <motion.div
           style={{
             whiteSpace: "nowrap",

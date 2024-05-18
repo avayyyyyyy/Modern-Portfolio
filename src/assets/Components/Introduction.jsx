@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Meteors from "./magicui/meteors";
 import ShimmerButton from "./magicui/shimmer-button";
-import RadialGradient from "../Components/magicui/radial-gradient";
+// import RadialGradient from "../Components/magicui/radial-gradient";
 
 const Introduction = () => {
   const sliderVariants = {
@@ -22,10 +22,10 @@ const Introduction = () => {
   return (
     <div
       id="home"
-      className="w-full relative m-auto gap-9 py-11 lg:mt-0 h-[90vh] flex flex-col justify-center items-center  bg-white"
+      className="w-full relative overflow-x-hidden  m-auto gap-9 py-11 lg:mt-0 lg:h-screen  h-[90vh] flex flex-col justify-center items-center  bg-white"
     >
       <Meteors number={30} />
-      <RadialGradient />
+      {/* <RadialGradient /> */}
 
       <div className="z-40">
         <div className="flex flex-col gap-9 text-center">

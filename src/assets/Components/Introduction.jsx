@@ -22,7 +22,7 @@ const Introduction = () => {
   return (
     <div
       id="home"
-      className="w-full relative m-auto gap-9 py-11 mt-14 lg:mt-0 h-screen flex flex-col justify-center items-center  bg-white"
+      className="w-full relative m-auto gap-9 py-11 lg:mt-0 h-screen flex flex-col justify-center items-center  bg-white"
     >
       <Meteors number={30} />
       <RadialGradient />

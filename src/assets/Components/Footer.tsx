@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="lg:w-[60vw] w-[80vw]  lg:my-20 my-10  mx-auto flex flex-col items-center">
       <div className="text-5xl font-semibold mb-2">Get in Touch</div>
       <div className="text-zinc-600 text-center">
-        Got a project idea or just want to chat? Let's connect now!
+        Got a project idea or just want to chat? Say hi now!
       </div>
       <div className="flex justify-between items-center gap-[10px]">
         <ShimmerButton className="shadow-2xl mt-10 ">

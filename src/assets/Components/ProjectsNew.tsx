@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const data = [
   {
-    image: "/ApeArmor.webp",
+    image: "https://utfs.io/f/4cf5c9a0-b660-4f4c-9c71-0ddc5da994c1-eprfmx.webp",
     name: "Ape Armor - Custom case brand",
     trending: true,
     techStack: ["NextJS", "KindeAuth", "Shadcn UI", "Prisma"],
@@ -14,7 +14,7 @@ const data = [
     LiveLink: "https://ape-armor.vercel.app/",
   },
   {
-    image: "/public/abhi-saas.webp",
+    image: "https://utfs.io/f/32278d95-50be-4b8e-8a94-fcedc59658cc-aet91n.webp",
     name: "Notes With Ease - Notes Taking App",
     trending: false,
     techStack: ["NextJS", "Prisma", "Shadcn UI", "KindeAuth"],

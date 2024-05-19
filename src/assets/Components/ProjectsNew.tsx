@@ -14,7 +14,7 @@ const data = [
     LiveLink: "https://ape-armor.vercel.app/",
   },
   {
-    image: "/abhi-saas.webp",
+    image: "/public/abhi-saas.webp",
     name: "Notes With Ease - Notes Taking App",
     trending: false,
     techStack: ["NextJS", "Prisma", "Shadcn UI", "KindeAuth"],

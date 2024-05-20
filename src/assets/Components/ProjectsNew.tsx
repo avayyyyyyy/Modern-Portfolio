@@ -16,7 +16,7 @@ const data = [
   {
     image: "https://utfs.io/f/32278d95-50be-4b8e-8a94-fcedc59658cc-aet91n.webp",
     name: "Notes With Ease - Notes Taking App",
-    trending: false,
+    trending: true,
     techStack: ["NextJS", "Prisma", "Shadcn UI", "KindeAuth"],
     shortDesc:
       "Created a complete Full Stack SAAS application using the latest Modern Framework called NextJs 14.",
@@ -42,8 +42,9 @@ function ProjectsNew() {
         </p>
       </div>
       <div className="grid md:grid-cols-2 grid-cols-1 ">
-        {data.map((e) => (
+        {data.map((e, i) => (
           <ProjectCard
+            i={i}
             key={e.LiveLink}
             date={e.date}
             deployed={e.LiveLink}

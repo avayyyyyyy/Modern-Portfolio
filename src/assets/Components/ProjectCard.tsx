@@ -4,6 +4,7 @@ import AnimatedGradientText from "./magicui/animated-gradient";
 import { cn } from "../../../lib/utils";
 
 function ProjectCard({
+  i,
   name,
   image,
   date,
@@ -29,14 +30,20 @@ function ProjectCard({
                     `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`
                   )}
                 >
-                  #1 Best
+                  #{++i} Best
                 </span>
               </AnimatedGradientText>
             )}
             <div className="font-semibold text-sm mt-2 ">{name}</div>
           </div>
           <div className="text-xs text-zinc-600 mb-2">{date} - Present</div>
-          <div className="text-xs text-zinc-500 min-h-16 ">{shortDesc}</div>
+          <div className="text-xs text-zinc-500 min-h-10 ">
+            {shortDesc.length > 100 ? (
+              <div>{shortDesc.split("").splice(0, 100).join("")}...</div>
+            ) : (
+              <div>{shortDesc}</div>
+            )}
+          </div>
         </div>
         <div>
           <div className="flex gap-2 my-3">

@@ -16,7 +16,7 @@ function ProjectCard({
 }) {
   return (
     <>
-      <div className="max-w-sm mb-2 flex flex-col justify-between  border rounded-lg py-4 px-3">
+      <div className="max-w-sm mb-10 flex flex-col justify-between  border rounded-lg py-4 px-3">
         <div>
           <div>
             <img className="rounded-lg" src={image} alt="" />

@@ -14,6 +14,17 @@ const data = [
     LiveLink: "https://ape-armor.vercel.app/",
   },
   {
+    image: "https://utfs.io/f/08688fe5-1d71-43d8-824b-a23146cd2082-zi28gn.png",
+    name: "Tweet Craft - AI Tweet Maker",
+    trending: true,
+    techStack: ["NextJS", "KindeAuth", "TailwindCSS", "Prisma"],
+    shortDesc:
+      "TweetCraft revolutionizes tweeting with AI-generated content! Input your topic, choose a mood, and voila – viral tweets at your fingertips. Share, copy, or tweet directly from the app for instant engagement!",
+    date: "May 2024",
+    Github: "https://github.com/avayyyyyyy/tweet-craft",
+    LiveLink: "https://tweet-craft-iota.vercel.app/",
+  },
+  {
     image: "https://utfs.io/f/32278d95-50be-4b8e-8a94-fcedc59658cc-aet91n.webp",
     name: "Note Nest - Notes Taking App",
     trending: true,
@@ -28,7 +39,7 @@ const data = [
 
 function ProjectsNew() {
   return (
-    <div className="lg:max-w-[60vw] max-w-[80vw] mb-1  lg:mb-20 ">
+    <div className="lg:max-w-[60vw] max-w-[80vw] mb-1 lg:mb-20 ">
       <div className="flex flex-col items-center mb-10  justify-center">
         <div className="text-sm px-3 py-1  w-fit bg-zinc-200 rounded-md mb-4  text-zinc-800">
           My Projects

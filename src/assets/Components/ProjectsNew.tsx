@@ -15,7 +15,7 @@ const data = [
   },
   {
     image: "https://utfs.io/f/08688fe5-1d71-43d8-824b-a23146cd2082-zi28gn.png",
-    name: "Tweet Craft - AI Tweet Maker",
+    name: "Tweet Craft - AI Tweet Generator",
     trending: true,
     techStack: ["NextJS", "KindeAuth", "TailwindCSS"],
     shortDesc:

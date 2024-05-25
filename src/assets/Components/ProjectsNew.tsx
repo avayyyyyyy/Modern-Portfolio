@@ -17,7 +17,7 @@ const data = [
     image: "https://utfs.io/f/08688fe5-1d71-43d8-824b-a23146cd2082-zi28gn.png",
     name: "Tweet Craft - AI Tweet Maker",
     trending: true,
-    techStack: ["NextJS", "KindeAuth", "TailwindCSS", "Prisma"],
+    techStack: ["NextJS", "KindeAuth", "TailwindCSS"],
     shortDesc:
       "TweetCraft revolutionizes tweeting with AI-generated content! Input your topic, choose a mood, and voila – viral tweets at your fingertips. Share, copy, or tweet directly from the app for instant engagement!",
     date: "May 2024",

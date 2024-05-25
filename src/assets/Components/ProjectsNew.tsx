@@ -52,7 +52,7 @@ function ProjectsNew() {
           web applications. Here are a few of my favorites.
         </p>
       </div>
-      <div className="grid md:grid-cols-2 grid-cols-1 ">
+      <div className="grid md:grid-cols-2 grid-cols-1">
         {data.map((e, i) => (
           <ProjectCard
             i={i}

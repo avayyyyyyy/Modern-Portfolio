@@ -51,7 +51,11 @@ const Introduction = () => {
         </p>
       </div>
       <div className="flex justify-between items-center gap-[10px]">
-        <a href="https://github.com/avayyyyyyy/">
+        <a
+          href="https://github.com/avayyyyyyy/"
+          rel="noreferrer"
+          target="_blank"
+        >
           <ShimmerButton className="shadow-2xl mt-10 ">
             <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
               Connect with me 🚀

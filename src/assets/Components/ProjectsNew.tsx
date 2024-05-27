@@ -14,7 +14,7 @@ const data = [
     LiveLink: "https://ape-armor.vercel.app/",
   },
   {
-    image: "https://utfs.io/f/08688fe5-1d71-43d8-824b-a23146cd2082-zi28gn.png",
+    image: "https://utfs.io/f/1022198c-e7f7-4089-8011-6292fe6bcc8c-5ahoge.png",
     name: "Tweet Craft - AI Tweet Generator",
     trending: true,
     techStack: ["NextJS", "KindeAuth", "TailwindCSS"],

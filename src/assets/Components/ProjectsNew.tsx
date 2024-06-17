@@ -14,15 +14,15 @@ const data = [
     LiveLink: "https://ape-armor.vercel.app/",
   },
   {
-    image: "https://utfs.io/f/1022198c-e7f7-4089-8011-6292fe6bcc8c-5ahoge.png",
-    name: "Tweet Craft - AI Tweet Generator",
+    image: "https://utfs.io/f/aff53f48-4837-46e2-9b10-7afdeb746b8c-ler19.webp",
+    name: "Piggy Banker - Finance Tracking App",
     trending: true,
-    techStack: ["NextJS", "KindeAuth", "TailwindCSS"],
+    techStack: ["NextJS", "Prisma", "Tanstack Query", "NextAuth"],
     shortDesc:
-      "TweetCraft revolutionizes tweeting with AI-generated content! Input your topic, choose a mood, and voila – viral tweets at your fingertips. Share, copy, or tweet directly from the app for instant engagement!",
-    date: "May 2024",
-    Github: "https://github.com/avayyyyyyy/tweet-craft",
-    LiveLink: "https://tweet-craft-iota.vercel.app/",
+      "Master your money.Track and grow effortlessly with Piggy Banker.",
+    date: "Jan 2024",
+    Github: "https://github.com/avayyyyyyy/piggy-banker",
+    LiveLink: "https://piggy-banker.vercel.app/",
   },
   {
     image: "https://utfs.io/f/32278d95-50be-4b8e-8a94-fcedc59658cc-aet91n.webp",
@@ -34,6 +34,17 @@ const data = [
     date: "Jan 2024",
     Github: "https://github.com/avayyyyyyy/abhi-saas",
     LiveLink: "https://note-nest-avay.vercel.app/",
+  },
+  {
+    image: "https://utfs.io/f/1022198c-e7f7-4089-8011-6292fe6bcc8c-5ahoge.png",
+    name: "Tweet Craft - AI Tweet Generator",
+    trending: true,
+    techStack: ["NextJS", "KindeAuth", "TailwindCSS"],
+    shortDesc:
+      "TweetCraft revolutionizes tweeting with AI-generated content! Input your topic, choose a mood, and voila – viral tweets at your fingertips. Share, copy, or tweet directly from the app for instant engagement!",
+    date: "May 2024",
+    Github: "https://github.com/avayyyyyyy/tweet-craft",
+    LiveLink: "https://tweet-craft-iota.vercel.app/",
   },
 ];
 

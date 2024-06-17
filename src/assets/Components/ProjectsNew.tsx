@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const data = [
   {
-    image: "https://utfs.io/f/4cf5c9a0-b660-4f4c-9c71-0ddc5da994c1-eprfmx.webp",
+    image: "https://utfs.io/f/fabf40ec-956e-495e-83d7-24ac093cee60-qei8wt.webp",
     name: "Ape Armor - Custom case brand",
     trending: true,
     techStack: ["NextJS", "KindeAuth", "Shadcn UI", "Prisma"],
@@ -25,7 +25,7 @@ const data = [
     LiveLink: "https://piggy-banker.vercel.app/",
   },
   {
-    image: "https://utfs.io/f/32278d95-50be-4b8e-8a94-fcedc59658cc-aet91n.webp",
+    image: "https://utfs.io/f/4b474f0e-382b-4ef0-aa9e-c1571a43daaf-q2nukk.webp",
     name: "Note Nest - Notes Taking App",
     trending: true,
     techStack: ["NextJS", "Prisma", "Shadcn UI", "KindeAuth"],
@@ -36,7 +36,7 @@ const data = [
     LiveLink: "https://note-nest-avay.vercel.app/",
   },
   {
-    image: "https://utfs.io/f/1022198c-e7f7-4089-8011-6292fe6bcc8c-5ahoge.png",
+    image: "https://utfs.io/f/b199c915-585e-4897-a7a9-5b5612e499dd-zihdxl.webp",
     name: "Tweet Craft - AI Tweet Generator",
     trending: true,
     techStack: ["NextJS", "KindeAuth", "TailwindCSS"],

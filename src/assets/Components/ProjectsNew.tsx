@@ -18,8 +18,7 @@ const data = [
     name: "Piggy Banker - Finance Tracking App",
     trending: true,
     techStack: ["NextJS", "Prisma", "Tanstack Query", "NextAuth"],
-    shortDesc:
-      "Master your money.Track and grow effortlessly with Piggy Banker.",
+    shortDesc: "Track and grow you money effortlessly with Piggy Banker.",
     date: "Jan 2024",
     Github: "https://github.com/avayyyyyyy/piggy-banker",
     LiveLink: "https://piggy-banker.vercel.app/",

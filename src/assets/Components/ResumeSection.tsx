@@ -9,10 +9,10 @@ const ResumeSection = () => {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">
+              <h1 className="lg:text-6xl text-4xl  text-center  font-semibold mb-4 ">
                 Download My Resume
-              </h2>
-              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              </h1>
+              <p className="lg:text-lg text-sm  text-zinc-600 mx-10  text-center">
                 Click the button below to download my resume.
               </p>
             </div>

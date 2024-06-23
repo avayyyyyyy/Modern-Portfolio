@@ -14,8 +14,8 @@ const App = () => {
         <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
         <TextReveal />
         <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
-        <Timeline /> {/* Use the imported Timeline component */}
-        <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
+        {/* <Timeline /> Use the imported Timeline component */}
+        {/* <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " /> */}
         <ProjectsNew />
         <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
         <ResumeSection />

@@ -69,8 +69,8 @@ export default function Timeline() {
               Completed a comprehensive program in computer science, including
               courses in algorithms, data structures, and software engineering.
             </p>
-          </div> */}
-        {/* </div> */}
+          </div>
+        </div> */}
       </div>
     </div>
   );

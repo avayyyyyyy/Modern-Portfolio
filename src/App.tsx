@@ -1,7 +1,6 @@
 import React from "react";
 import Introduction from "./assets/Components/Introduction";
 import { BrowserRouter } from "react-router-dom";
-import Footer from "./assets/Components/Footer";
 import TextReveal from "./assets/Components/TextReveal";
 import ProjectsNew from "./assets/Components/ProjectsNew";
 import ResumeSection from "./assets/Components/ResumeSection";

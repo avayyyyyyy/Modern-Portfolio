@@ -1,4 +1,3 @@
-import React from "react";
 import { BsBriefcaseFill } from "react-icons/bs";
 import { FaComputer } from "react-icons/fa6";
 

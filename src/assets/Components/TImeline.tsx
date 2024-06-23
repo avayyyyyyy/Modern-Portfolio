@@ -1,12 +1,7 @@
 import React from "react";
 import { FaComputer } from "react-icons/fa6";
 
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/yNlogSoxLMU
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
-export default function Component() {
+export default function Timeline() {
   return (
     <div className="w-full md:max-w-3xl max-w-[85%] mx-auto py-10 px-4 sm:px-6 lg:px-8">
       <div className="relative pb-4 space-y-8">

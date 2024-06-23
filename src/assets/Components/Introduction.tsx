@@ -1,10 +1,11 @@
+import React from "react";
 import { motion } from "framer-motion";
 import Meteors from "./magicui/meteors";
 import ShimmerButton from "./magicui/shimmer-button";
 // import RadialGradient from "../Components/magicui/radial-gradient";
 
 const Introduction = () => {
-  const sliderVariants = {
+  const sliderVariants: any = {
     initial: {
       x: "40%",
     },
@@ -52,7 +53,7 @@ const Introduction = () => {
       </div>
       <div className="flex justify-between items-center gap-[10px]">
         <a
-          href="https://drive.google.com/file/d/1GsQSQIhseq8Ojd9sxIjGI1WQhB_isjC-/view?usp=sharing"
+          href="https://linkedin.com/in/shubhcodes"
           rel="noreferrer"
           target="_blank"
         >

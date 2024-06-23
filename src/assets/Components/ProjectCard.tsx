@@ -46,7 +46,7 @@ function ProjectCard({
           </div>
         </div>
         <div>
-          <div className="flex gap-2 my-3">
+          <div className="flex flex-wrap gap-2 my-4">
             {tags.map((e) => {
               return (
                 <div

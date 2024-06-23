@@ -1,7 +1,7 @@
 import React from "react";
 import { FaComputer } from "react-icons/fa6";
 
-export default function Timeline() {
+const Timeline = () => {
   return (
     <div className="w-full md:max-w-3xl max-w-[85%] mx-auto py-10 px-4 sm:px-6 lg:px-8">
       <div className="relative pb-4 space-y-8">
@@ -74,7 +74,9 @@ export default function Timeline() {
       </div>
     </div>
   );
-}
+};
+
+export default Timeline;
 
 function BriefcaseIcon(props) {
   return (

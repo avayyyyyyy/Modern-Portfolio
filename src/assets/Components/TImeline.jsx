@@ -19,7 +19,7 @@ const Timeline = () => {
           </div>
           <div className="flex-1">
             <h3 className="md:text-lg text-base font-semibold">
-              Lica Track Winner of India's first GEN AI Hackathon 🚀
+              Lica Track Winner of India&apos;s first GEN AI Hackathon 🚀
             </h3>
             <div className="md:text-sm text-xs text-muted">
               Paras Madan x Nas.io <span className="mx-2">•</span> June 2024
@@ -27,7 +27,10 @@ const Timeline = () => {
             <p className="mt-2 md:text-sm text-xs relaxed">
               I created a solution to help modern parents who struggle with
               coming up with new bedtime stories every day. The application,
-              called <span className="font-bold text-gray-900">"StoryDev"</span>
+              called{" "}
+              <span className="font-bold text-gray-900">
+                &quot;StoryDev&quot;
+              </span>
               , uses GEN AI to allow parents to create fully customizable
               stories. StoryDev even includes a face-swapping feature through
               the LICA face swapping API.

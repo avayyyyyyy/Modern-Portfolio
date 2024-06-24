@@ -37,7 +37,9 @@ function ProjectCard({
             )}
             <div className="font-semibold text-sm mt-2 ">{name}</div>
           </div>
-          <div className="text-xs text-zinc-600 mb-2">{date} - Present</div>
+          <div className="text-xs text-zinc-600 mb-2 mt-1">
+            {date} - Present
+          </div>
           <div className="text-xs text-zinc-500">
             {shortDesc.length > 100 ? (
               <div>{shortDesc.split("").splice(0, 100).join("")}...</div>

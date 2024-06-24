@@ -2,6 +2,7 @@ import React from "react";
 import { BiGlobe } from "react-icons/bi";
 import AnimatedGradientText from "./magicui/animated-gradient";
 import { cn } from "../../../lib/utils";
+import { FaCode } from "react-icons/fa";
 
 function ProjectCard({
   i,
@@ -62,14 +63,14 @@ function ProjectCard({
             <div className="bg-black flex gap-2 items-center  text-white w-fit px-3 py-1.5  rounded-md  text-xs">
               {" "}
               <a target="_blank" className="flex gap-2" href={deployed}>
-                <BiGlobe size={16} /> Link
+                <BiGlobe size={16} /> Live
               </a>
             </div>
             <div className="bg-black flex gap-2 items-center  text-white w-fit px-3 py-1.5  rounded-md  text-xs">
               {" "}
               <a target="_blank" className="flex gap-2" href={github}>
                 {" "}
-                <BiGlobe size={16} /> Code
+                <FaCode size={16} /> Code
               </a>
             </div>
           </div>

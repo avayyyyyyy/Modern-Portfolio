@@ -2,6 +2,7 @@ import React from "react";
 import TextRevealByWord from "./magicui/text-reveal";
 import { FaComputer } from "react-icons/fa6";
 import { BsBriefcaseFill } from "react-icons/bs";
+import { GiGraduateCap } from "react-icons/gi";
 
 function TextReveal() {
   return (
@@ -62,23 +63,28 @@ function TextReveal() {
               </p>
             </div>
           </div>
-          {/* <div className="relative flex items-start gap-4">
-          <div className="flex-none w-7 h-7 rounded-full bg-gray-900 flex items-center justify-center text-gray-200">
-            <GraduationCapIcon className="w-4 h-4" />
-          </div>
-          <div className="flex-1">
-            <h3 className="text-lg font-semibold">
-              Bachelor of Computer Application
-            </h3>
-            <div className="text-sm text-muted">
-              Poornima University <span className="mx-2">•</span> 2022 - 2025
+          <div className="relative flex items-start gap-4">
+            <div className="flex-none w-7 h-7 rounded-full bg-gray-900 flex items-center justify-center text-gray-200">
+              <GiGraduateCap className="w-4 h-4" />
             </div>
-            <p className="mt-2 text-sm/relaxed">
-              Completed a comprehensive program in computer science, including
-              courses in algorithms, data structures, and software engineering.
-            </p>
+            <div className="flex-1">
+              <h3 className="text-lg font-semibold">
+                Bachelor of Computer Application
+              </h3>
+              <div className="text-sm text-muted">
+                Poornima University <span className="mx-2">•</span> 2022 - 2025
+              </div>
+              <p className="mt-2 text-sm/relaxed">
+                I am currently enrolled in the Bachelor of Computer Applications
+                (BCA) program at Poornima University, focusing on core areas
+                like software development, data analysis, and artificial
+                intelligence. The curriculum includes hands-on projects and
+                internships, enhancing both my theoretical understanding and
+                practical skills. This program is equipping me with the
+                expertise needed to excel in the tech industry.
+              </p>
+            </div>
           </div>
-        </div> */}
         </div>
       </div>
     </>

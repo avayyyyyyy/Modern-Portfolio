@@ -14,7 +14,7 @@ const data = [
     LiveLink: "https://ape-armor.vercel.app/",
   },
   {
-    image: "https://utfs.io/f/55f40444-522d-4a5c-a436-6468ac2183f4-9t76k1.webp",
+    image: "https://utfs.io/f/035b9037-8519-4d74-8e4d-0fbca39ab083-va0yy.webp",
     name: "Piggy Banker - Finance Tracking App",
     trending: true,
     techStack: ["NextJS", "Prisma", "Tanstack Query", "NextAuth"],

@@ -68,13 +68,13 @@ function TextReveal() {
               <GiGraduateCap className="w-4 h-4" />
             </div>
             <div className="flex-1">
-              <h3 className="text-lg font-semibold">
+              <h3 className="md:text-lg text-base font-semibold">
                 Bachelor of Computer Application
               </h3>
-              <div className="text-sm text-muted">
+              <div className="md:text-sm text-xs text-muted">
                 Poornima University <span className="mx-2">•</span> 2022 - 2025
               </div>
-              <p className="mt-2 text-sm/relaxed">
+              <p className="mt-2 md:text-sm text-xs relaxed">
                 I am currently enrolled in the Bachelor of Computer Applications
                 (BCA) program at Poornima University, focusing on core areas
                 like software development, data analysis, and artificial

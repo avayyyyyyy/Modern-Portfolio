@@ -31,7 +31,7 @@ const Introduction = () => {
       <div className="z-40">
         <div className="flex flex-col gap-9 text-center">
           <h1 className="text-[#6C6C6C] lg:mt-7 text-base md:textl lg:text-xl">
-            Holla👋, I’m{" "}
+            Namaste 🙏🏻, I’m{" "}
             <span className="font-bold text-black">Shubhankit Jain</span> and
             I’m a
           </h1>

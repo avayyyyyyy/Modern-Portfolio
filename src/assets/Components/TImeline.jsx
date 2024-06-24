@@ -43,7 +43,7 @@ const Timeline = () => {
               Full Stack AI Developer 🧳
             </h3>
             <div className="md:text-sm text-xs text-muted">
-              Freelancing <span className="mx-2">•</span> May 2024 - Present
+              Freelancing <span className="mx-2">•</span> April 2024 - Present
             </div>
             <p className="mt-2 md:text-sm text-xs relaxed">
               I developed some highly intuitive AI solutions for my clients,

@@ -12,13 +12,13 @@ const ResumeSection = () => {
               <h1 className="lg:text-6xl text-4xl  text-center  font-semibold mb-4 ">
                 Download My Resume
               </h1>
-              <p className="lg:text-lg text-sm  text-zinc-600 mx-10  text-center">
+              <p className="lg:text-lg text-sm  text-gary-900 mx-10  text-center">
                 Click the button below to download my resume.
               </p>
             </div>
             <Link
               to={
-                "https://drive.google.com/uc?export=download&id=1GsQSQIhseq8Ojd9sxIjGI1WQhB_isjC-"
+                "https://drive.google.com/uc?export=download&id=1HHD5stjYrvF6ZvfbRuBoQ5JKiUqgIHgq"
               }
               download
               className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-white shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"

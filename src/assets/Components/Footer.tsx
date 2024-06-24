@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       <div className="flex justify-between items-center gap-[10px]">
         <a
-          href="https://drive.google.com/file/d/1GsQSQIhseq8Ojd9sxIjGI1WQhB_isjC-/view?usp=sharing"
+          href="https://drive.google.com/file/d/1HHD5stjYrvF6ZvfbRuBoQ5JKiUqgIHgq/view?usp=sharing"
           rel="noreferrer"
           target="_blank"
         >

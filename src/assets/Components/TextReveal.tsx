@@ -15,7 +15,7 @@ function TextReveal() {
         <div className="relative pb-4 space-y-8">
           <div className="">
             <div className="text-sm px-3 mb-4 mx-auto py-1 w-fit bg-zinc-200 rounded-md  text-zinc-800">
-              Some past
+              About Me
             </div>
             <h1 className="lg:text-6xl text-4xl text-center font-semibold mb-10 ">
               Highlights

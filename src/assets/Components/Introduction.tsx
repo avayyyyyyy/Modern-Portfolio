@@ -31,9 +31,9 @@ const Introduction = () => {
       <div className="z-40">
         <div className="flex flex-col gap-9 text-center">
           <h1 className="text-[#6C6C6C] lg:mt-7 text-base md:textl lg:text-xl">
-            Namaste 🙏🏻, I’m{" "}
+            Hello there! 👋 I'm{" "}
             <span className="font-bold text-black">Shubhankit Jain</span> and
-            I’m a
+            I'm a
           </h1>
         </div>
         <div className="flex flex-col items-center">
@@ -47,8 +47,8 @@ const Introduction = () => {
       </div>
       <div>
         <p className="w-[40vh] lg:w-[50vw] text-center text-sm  px-4">
-          I love creating websites and gaming, doing freelance work and focusing
-          on designing digital products that are easy on users and customers ❤️.
+          Passionate about crafting user-friendly AI websites & solutions, while
+          freelancing to design seamless digital products ❤️
         </p>
       </div>
       <div className="flex justify-between items-center gap-[10px]">
@@ -57,9 +57,9 @@ const Introduction = () => {
           rel="noreferrer"
           target="_blank"
         >
-          <ShimmerButton className="shadow-2xl mt-10 ">
+          <ShimmerButton className="shadow-2xl  ">
             <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-              Connect with me 🚀
+              Let's Connect! 🚀
             </span>
           </ShimmerButton>
         </a>

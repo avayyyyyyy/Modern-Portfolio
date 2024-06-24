@@ -69,7 +69,7 @@ function TextReveal() {
             </div>
             <div className="flex-1">
               <h3 className="md:text-lg text-base font-semibold">
-                Bachelor of Computer Application
+                Bachelor of Computer Application 🐞
               </h3>
               <div className="md:text-sm text-xs text-muted">
                 Poornima University <span className="mx-2">•</span> 2022 - 2025

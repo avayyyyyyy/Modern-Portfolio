@@ -11,7 +11,7 @@ function TextReveal() {
         <TextRevealByWord text="I love to build web apps using ReactJs, NextJs, TailwindCSS, PostgresSQL and Prisma. 🚀" />
       </div>
       <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
-      <div className="w-full md:max-w-3xl max-w-[85%] mx-auto py-10 px-4 sm:px-6 lg:px-8">
+      <div className="w-full md:max-w-3xl max-w-[87%] mx-auto py-10 px-4 sm:px-6 lg:px-8">
         <div className="relative pb-4 space-y-8">
           <div className="">
             <div className="text-sm px-3 mb-4 mx-auto py-1 w-fit bg-zinc-200 rounded-md  text-zinc-800">
@@ -68,7 +68,7 @@ function TextReveal() {
               <GiGraduateCap className="w-4 h-4" />
             </div>
             <div className="flex-1">
-              <h3 className="md:text-lg text-base font-semibold">
+              <h3 className="md:text-lg text-base shrink-0 font-semibold">
                 Bachelor of Computer Application 🐞
               </h3>
               <div className="md:text-sm text-xs text-muted">

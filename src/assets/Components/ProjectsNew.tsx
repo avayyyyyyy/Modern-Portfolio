@@ -6,7 +6,7 @@ const data = [
     image: "https://utfs.io/f/fabf40ec-956e-495e-83d7-24ac093cee60-qei8wt.webp",
     name: "Ape Armor - Custom case brand",
     trending: true,
-    techStack: ["NextJS", "KindeAuth", "Shadcn UI", "Prisma"],
+    techStack: ["NextJS", "Typescript", "KindeAuth", "Shadcn UI", "Prisma"],
     shortDesc:
       "Your all-in-one solution for efficiently creating some cool custom back case for your iPhone.",
     date: "May 2024",
@@ -17,7 +17,7 @@ const data = [
     image: "https://utfs.io/f/035b9037-8519-4d74-8e4d-0fbca39ab083-va0yy.webp",
     name: "Piggy Banker - Finance Tracking App",
     trending: true,
-    techStack: ["NextJS", "Prisma", "Tanstack Query", "NextAuth"],
+    techStack: ["NextJS", "Typescript", "Prisma", "Tanstack Query", "NextAuth"],
     shortDesc: "Track and grow you money effortlessly with Piggy Banker.",
     date: "Jan 2024",
     Github: "https://github.com/avayyyyyyy/piggy-banker",
@@ -27,9 +27,9 @@ const data = [
     image: "https://utfs.io/f/4b474f0e-382b-4ef0-aa9e-c1571a43daaf-q2nukk.webp",
     name: "Note Nest - Notes Taking App",
     trending: true,
-    techStack: ["NextJS", "Prisma", "Shadcn UI", "KindeAuth"],
+    techStack: ["NextJS", "Typescript", "Prisma", "Shadcn UI", "KindeAuth"],
     shortDesc:
-      "Created a complete Full Stack SAAS application using the latest Modern Framework called NextJs 14.",
+      "Created a complete Full Stack SAAS application using the latest Modern Framework called NextJs 1,4.",
     date: "Jan 2024",
     Github: "https://github.com/avayyyyyyy/abhi-saas",
     LiveLink: "https://note-nest-avay.vercel.app/",
@@ -38,7 +38,7 @@ const data = [
     image: "https://utfs.io/f/b199c915-585e-4897-a7a9-5b5612e499dd-zihdxl.webp",
     name: "Tweet Craft - AI Tweet Generator",
     trending: true,
-    techStack: ["NextJS", "KindeAuth", "TailwindCSS"],
+    techStack: ["NextJS", "Typescript", "KindeAuth", "TailwindCSS"],
     shortDesc:
       "TweetCraft revolutionizes tweeting with AI-generated content! Input your topic, choose a mood, and voila – viral tweets at your fingertips. Share, copy, or tweet directly from the app for instant engagement!",
     date: "May 2024",

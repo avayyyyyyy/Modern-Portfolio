@@ -3,6 +3,7 @@ import TextRevealByWord from "./magicui/text-reveal";
 import { FaComputer } from "react-icons/fa6";
 import { BsBriefcaseFill } from "react-icons/bs";
 import { GiGraduateCap } from "react-icons/gi";
+import { FaCode, FaGlobe } from "react-icons/fa";
 
 function TextReveal() {
   return (
@@ -41,6 +42,28 @@ function TextReveal() {
                 stories. StoryDev even includes a face-swapping feature through
                 the LICA face swapping API.
               </p>
+              <div className="flex items-center gap-2 ">
+                <div className="bg-black hover:bg-black/70 mt-3 flex gap-2 items-center  text-white w-fit px-3 py-2  rounded-md  text-xs">
+                  {" "}
+                  <a
+                    target="_blank"
+                    className="flex gap-2"
+                    href={"https://github.com/avayyyyyyy/GenAI-Main"}
+                  >
+                    <FaCode size={15} /> Code
+                  </a>
+                </div>
+                <div className="bg-black hover:bg-black/70 mt-3 flex gap-2 items-center  text-white w-fit px-3 py-2  rounded-md  text-xs">
+                  {" "}
+                  <a
+                    target="_blank"
+                    className="flex gap-2"
+                    href={"https://storydev.netlify.app/"}
+                  >
+                    <FaGlobe size={15} /> Deployed
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="relative flex items-start gap-4">

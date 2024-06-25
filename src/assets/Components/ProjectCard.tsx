@@ -68,6 +68,7 @@ function ProjectCard({
                 <BiGlobe size={16} /> Website
               </a>
             </div>
+
             <div className="bg-black hover:bg-black/70 flex gap-2 items-center  text-white w-fit px-3 py-1.5  rounded-md  text-xs">
               {" "}
               <a target="_blank" className="flex gap-2" href={github}>

@@ -9,7 +9,7 @@ function TextReveal() {
   return (
     <>
       <div className="z-10 flex min-h-[16rem] w-full items-center justify-center bg-white">
-        <TextRevealByWord text="I love to build web apps using ReactJs, NextJs, TailwindCSS, PostgresSQL and Prisma. 🚀" />
+        <TextRevealByWord text="I love building web apps using ReactJs, NextJs, TailwindCSS, PostgresSQL and Prisma. 🚀" />
       </div>
       <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
       <div className="w-full md:max-w-3xl max-w-[87%] mx-auto py-10 px-4 sm:px-6 lg:px-8">

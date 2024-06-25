@@ -17,7 +17,7 @@ function ProjectCard({
 }) {
   return (
     <>
-      <div className="max-w-sm mb-10 flex flex-col justify-between mx-auto  border rounded-lg py-4 px-3">
+      <div className="max-w-sm mb-10 hover:shadow-lg  flex flex-col justify-between mx-auto  border border-gray-300 duration-100 rounded-lg py-4 px-3">
         <div>
           <div>
             <img className="rounded-lg" src={image} alt="" />
@@ -54,7 +54,7 @@ function ProjectCard({
               return (
                 <div
                   key={e}
-                  className="text-xs text-black rounded-md  bg-zinc-100 px-2 py-1"
+                  className="text-xs text-black rounded-md  bg-zinc-200 px-2 py-1"
                 >
                   {e}
                 </div>
@@ -62,17 +62,18 @@ function ProjectCard({
             })}
           </div>
           <div className="flex gap-2">
-            <div className="bg-black flex gap-2 items-center  text-white w-fit px-3 py-1.5  rounded-md  text-xs">
+            <div className="bg-black hover:bg-black/70 flex gap-2 items-center  text-white w-fit px-3 py-1.5  rounded-md  text-xs">
               {" "}
               <a target="_blank" className="flex gap-2" href={deployed}>
-                <BiGlobe size={16} /> Live
+                <BiGlobe size={16} /> Website
               </a>
             </div>
-            <div className="bg-black flex gap-2 items-center  text-white w-fit px-3 py-1.5  rounded-md  text-xs">
+            <div className="bg-black hover:bg-black/70 flex gap-2 items-center  text-white w-fit px-3 py-1.5  rounded-md  text-xs">
               {" "}
               <a target="_blank" className="flex gap-2" href={github}>
                 {" "}
-                <FaCode size={16} /> Code
+                <FaCode size={16} />
+                Code
               </a>
             </div>
           </div>

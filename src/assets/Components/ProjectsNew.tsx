@@ -3,6 +3,17 @@ import ProjectCard from "./ProjectCard";
 
 const data = [
   {
+    image: "https://utfs.io/f/f26052f2-2598-447c-a169-51d16a44e44a-lphjht.webp",
+    name: "BaatSheet - Chat with PDF",
+    trending: true,
+    techStack: ["NextJS", "Langchain", "Pinecone", "Firebase", "Shadcn UI"],
+    shortDesc:
+      "BaatSheet is a platform that allows you to chat with your friends and family while sharing PDFs. It's a fun and interactive way to communicate with your loved ones.",
+    date: "May 2024",
+    Github: "https://github.com/avayyyyyyy/baatsheet",
+    LiveLink: "https://baat-sheet.vercel.app/",
+  },
+  {
     image: "https://utfs.io/f/fabf40ec-956e-495e-83d7-24ac093cee60-qei8wt.webp",
     name: "Ape Armor - Custom case brand",
     trending: true,
@@ -22,17 +33,6 @@ const data = [
     date: "Jan 2024",
     Github: "https://github.com/avayyyyyyy/piggy-banker",
     LiveLink: "https://piggy-banker.vercel.app/",
-  },
-  {
-    image: "https://utfs.io/f/f26052f2-2598-447c-a169-51d16a44e44a-lphjht.webp",
-    name: "BaatSheet - Chat with PDF",
-    trending: true,
-    techStack: ["NextJS", "Langchain", "Pinecone", "Firebase"],
-    shortDesc:
-      "BaatSheet is a platform that allows you to chat with your friends and family while sharing PDFs. It's a fun and interactive way to communicate with your loved ones.",
-    date: "May 2024",
-    Github: "https://github.com/avayyyyyyy/baatsheet",
-    LiveLink: "https://baat-sheet.vercel.app/",
   },
   {
     image: "https://utfs.io/f/4b474f0e-382b-4ef0-aa9e-c1571a43daaf-q2nukk.webp",

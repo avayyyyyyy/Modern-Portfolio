@@ -24,16 +24,17 @@ const data = [
     LiveLink: "https://piggy-banker.vercel.app/",
   },
   {
-    image: "https://utfs.io/f/4b474f0e-382b-4ef0-aa9e-c1571a43daaf-q2nukk.webp",
-    name: "Note Nest - Notes Taking App",
+    image: "https://utfs.io/f/f26052f2-2598-447c-a169-51d16a44e44a-lphjht.webp",
+    name: "BaatSheet - Chat with PDF",
     trending: true,
-    techStack: ["NextJS", "Typescript", "Prisma", "Shadcn UI", "KindeAuth"],
+    techStack: ["NextJS", "Langchain", "Pinecone", "Firebase"],
     shortDesc:
-      "Created a complete Full Stack SAAS application using the latest Modern Framework called NextJs 1,4.",
-    date: "Jan 2024",
-    Github: "https://github.com/avayyyyyyy/abhi-saas",
-    LiveLink: "https://note-nest-avay.vercel.app/",
+      "BaatSheet is a platform that allows you to chat with your friends and family while sharing PDFs. It's a fun and interactive way to communicate with your loved ones.",
+    date: "May 2024",
+    Github: "https://github.com/avayyyyyyy/baatsheet",
+    LiveLink: "https://baat-sheet.vercel.app/",
   },
+
   {
     image: "https://utfs.io/f/b199c915-585e-4897-a7a9-5b5612e499dd-zihdxl.webp",
     name: "Tweet Craft - AI Tweet Generator",
@@ -46,15 +47,15 @@ const data = [
     LiveLink: "https://tweet-craft-iota.vercel.app/",
   },
   {
-    image: "https://utfs.io/f/f26052f2-2598-447c-a169-51d16a44e44a-lphjht.webp",
-    name: "BaatSheet - Chat with PDF",
+    image: "https://utfs.io/f/4b474f0e-382b-4ef0-aa9e-c1571a43daaf-q2nukk.webp",
+    name: "Note Nest - Notes Taking App",
     trending: true,
-    techStack: ["NextJS", "Langchain", "Pinecone", "Firebase"],
+    techStack: ["NextJS", "Typescript", "Prisma", "Shadcn UI", "KindeAuth"],
     shortDesc:
-      "BaatSheet is a platform that allows you to chat with your friends and family while sharing PDFs. It's a fun and interactive way to communicate with your loved ones.",
-    date: "May 2024",
-    Github: "https://github.com/avayyyyyyy/baatsheet",
-    LiveLink: "https://baat-sheet.vercel.app/",
+      "Created a complete Full Stack SAAS application using the latest Modern Framework called NextJs 1,4.",
+    date: "Jan 2024",
+    Github: "https://github.com/avayyyyyyy/abhi-saas",
+    LiveLink: "https://note-nest-avay.vercel.app/",
   },
   {
     image: "https://utfs.io/f/b199c915-585e-4897-a7a9-5b5612e499dd-zihdxl.webp",

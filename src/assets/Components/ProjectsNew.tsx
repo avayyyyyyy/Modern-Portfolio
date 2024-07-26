@@ -45,6 +45,28 @@ const data = [
     Github: "https://github.com/avayyyyyyy/tweet-craft",
     LiveLink: "https://tweet-craft-iota.vercel.app/",
   },
+  {
+    image: "https://utfs.io/f/f26052f2-2598-447c-a169-51d16a44e44a-lphjht.webp",
+    name: "BaatSheet - Chat with PDF",
+    trending: true,
+    techStack: ["NextJS", "Langchain", "Pinecone", "Firebase"],
+    shortDesc:
+      "BaatSheet is a platform that allows you to chat with your friends and family while sharing PDFs. It's a fun and interactive way to communicate with your loved ones.",
+    date: "May 2024",
+    Github: "https://github.com/avayyyyyyy/baatsheet",
+    LiveLink: "https://baat-sheet.vercel.app/",
+  },
+  {
+    image: "https://utfs.io/f/b199c915-585e-4897-a7a9-5b5612e499dd-zihdxl.webp",
+    name: "Tweet Craft - AI Tweet Generator",
+    trending: true,
+    techStack: ["NextJS", "KindeAuth", "TailwindCSS"],
+    shortDesc:
+      "TweetCraft revolutionizes tweeting with AI-generated content! Input your topic, choose a mood, and voila – viral tweets at your fingertips. Share, copy, or tweet directly from the app for instant engagement!",
+    date: "May 2024",
+    Github: "https://github.com/avayyyyyyy/tweet-craft",
+    LiveLink: "https://tweet-craft-iota.vercel.app/",
+  },
 ];
 
 function ProjectsNew() {

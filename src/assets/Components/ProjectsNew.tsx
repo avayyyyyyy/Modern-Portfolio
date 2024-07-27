@@ -8,7 +8,7 @@ const data = [
     trending: true,
     techStack: ["NextJS", "Langchain", "Pinecone", "Firebase", "Shadcn UI"],
     shortDesc:
-      "BaatSheet is a platform that allows you to chat with your friends and family while sharing PDFs. It's a fun and interactive way to communicate with your loved ones.",
+      "BaatSheet is a platform that allows you to chat with your PDFs. It's a interactive way to communicate with your Documents.",
     date: "May 2024",
     Github: "https://github.com/avayyyyyyy/baatsheet",
     LiveLink: "https://baat-sheet.vercel.app/",

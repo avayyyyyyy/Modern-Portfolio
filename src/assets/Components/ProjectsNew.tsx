@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const data = [
   {
-    image: "https://utfs.io/f/f26052f2-2598-447c-a169-51d16a44e44a-lphjht.webp",
+    image: "https://utfs.io/f/f41ae507-be30-4221-9809-97f80f78f847-lphjht.webp",
     name: "BaatSheet - Chat with PDF",
     trending: true,
     techStack: ["NextJS", "Langchain", "Pinecone", "Firebase", "Shadcn UI"],

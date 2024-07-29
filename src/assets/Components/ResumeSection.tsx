@@ -18,7 +18,7 @@ const ResumeSection = () => {
             </div>
             <Link
               to={
-                "https://drive.google.com/uc?export=download&id=1HHD5stjYrvF6ZvfbRuBoQ5JKiUqgIHgq"
+                "https://drive.google.com/uc?export=download&id=1WB5o9NHM0D4RQiRx5jLjxv0sNDLQjeM2"
               }
               target="_blank"
               download

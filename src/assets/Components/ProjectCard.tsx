@@ -42,7 +42,7 @@ function ProjectCard({
           </div>
           <div className="text-xs text-zinc-500">
             {shortDesc.length > 100 ? (
-              <div>{shortDesc.split("").splice(0, 100).join("")}...</div>
+              <div>{shortDesc.split("").splice(0, 111).join("")}...</div>
             ) : (
               <div>{shortDesc}</div>
             )}

@@ -41,7 +41,7 @@ const data = [
     trending: true,
     techStack: ["NextJS", "Typescript", "Prisma", "Shadcn UI", "KindeAuth"],
     shortDesc:
-      "Created a complete Full Stack SAAS application using the latest Modern Framework called NextJs 1,4.",
+      "Created a complete Full Stack SAAS application using the latest Modern Framework called NextJs 14.",
     date: "Jan 2024",
     Github: "https://github.com/avayyyyyyy/abhi-saas",
     LiveLink: "https://note-nest-avay.vercel.app/",

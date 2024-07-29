@@ -52,7 +52,7 @@ const data = [
     trending: true,
     techStack: ["NextJS", "KindeAuth", "TailwindCSS"],
     shortDesc:
-      "TweetCraft revolutionizes tweeting with AI-generated content! Input your topic, choose a mood, and voila – viral tweets at your fingertips. Share, copy, or tweet directly from the app for instant engagement!",
+      "TweetCraft revolutionizes tweeting with AI-generated content! Input your topic, choose a mood, and voila - viral tweets at your fingertips. Share, copy, or tweet directly from the app for instant engagement!",
     date: "May 2024",
     Github: "https://github.com/avayyyyyyy/tweet-craft",
     LiveLink: "https://tweet-craft-iota.vercel.app/",

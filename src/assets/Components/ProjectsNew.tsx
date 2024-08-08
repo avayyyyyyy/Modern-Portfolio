@@ -3,6 +3,17 @@ import ProjectCard from "./ProjectCard";
 
 const data = [
   {
+    image: "https://utfs.io/f/9e53247a-090e-4b56-ae1e-03c9e4bff653-md47.png",
+    name: "Opinify - Feedback Collection SaaS",
+    trending: true,
+    techStack: ["NextJS", "Prisma", "Typescript", "Firebase", "TailwindCSS"],
+    shortDesc:
+      "Opinify is a feedback collection platform where users can embed a code in their website to collect feedback, which can then be viewed on the Opinify website.",
+    date: "August 2024",
+    Github: "https://github.com/avayyyyyyy/opinify",
+    LiveLink: "https://opinify.in/",
+  },
+  {
     image: "https://utfs.io/f/f41ae507-be30-4221-9809-97f80f78f847-lphjht.webp",
     name: "BaatSheet - Chat with PDF",
     trending: true,

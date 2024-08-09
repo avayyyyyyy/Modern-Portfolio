@@ -18,11 +18,11 @@ const ResumeSection = () => {
             </div>
             <Link
               to={
-                "https://drive.google.com/uc?export=download&id=1WB5o9NHM0D4RQiRx5jLjxv0sNDLQjeM2"
+                "https://drive.google.com/uc?export=download&id=1dFgwXRC3_E8fu3dFnRtE8Gl8ropAS0O8"
               }
               target="_blank"
               download
-              className="inline-flex h-10 items-center justify-center rounded-full bg-gray-900 hover:bg-gray-700 px-8 text-sm font-medium text-white shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+              className="inline-flex h-10 items-center justify-center rounded-full bg-black hover:bg-black/80 px-8 text-sm font-medium text-white shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
             >
               Download Resume{" "}
               <BiDownArrow size={16} className="ml-2 rotate-[270deg] " />

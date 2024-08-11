@@ -8,7 +8,7 @@ const data = [
     trending: true,
     techStack: ["NextJS", "Prisma", "Typescript", "Firebase", "TailwindCSS"],
     shortDesc:
-      "Opinify is a feedback collection platform where users can embed a code in their website to collect feedback, which can then be viewed on the Opinify website.",
+      "Opinify is a feedback collection platform where users can embed a code in their website to collect user feedbacks.",
     date: "August 2024",
     Github: "https://github.com/avayyyyyyy/opinify",
     LiveLink: "https://opinify.in/",

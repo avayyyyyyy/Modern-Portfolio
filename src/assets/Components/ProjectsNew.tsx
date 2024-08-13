@@ -24,17 +24,7 @@ const data = [
     Github: "https://github.com/avayyyyyyy/baatsheet",
     LiveLink: "https://baat-sheet.vercel.app/",
   },
-  {
-    image: "https://utfs.io/f/fabf40ec-956e-495e-83d7-24ac093cee60-qei8wt.webp",
-    name: "Ape Armor - Custom case brand",
-    trending: true,
-    techStack: ["NextJS", "Typescript", "KindeAuth", "Shadcn UI", "Prisma"],
-    shortDesc:
-      "Your all-in-one solution for efficiently creating some cool custom back case for your iPhone.",
-    date: "May 2024",
-    Github: "https://github.com/avayyyyyyy/ApeArmor",
-    LiveLink: "https://ape-armor.vercel.app/",
-  },
+
   {
     image: "https://utfs.io/f/035b9037-8519-4d74-8e4d-0fbca39ab083-va0yy.webp",
     name: "Piggy Banker - Finance Tracking App",
@@ -47,16 +37,17 @@ const data = [
     LiveLink: "https://piggy-banker.vercel.app/",
   },
   {
-    image: "https://utfs.io/f/4b474f0e-382b-4ef0-aa9e-c1571a43daaf-q2nukk.webp",
-    name: "Note Nest - Notes Taking App",
+    image: "https://utfs.io/f/fabf40ec-956e-495e-83d7-24ac093cee60-qei8wt.webp",
+    name: "Ape Armor - Custom case brand",
     trending: true,
-    techStack: ["NextJS", "Typescript", "Prisma", "Shadcn UI", "KindeAuth"],
+    techStack: ["NextJS", "Typescript", "KindeAuth", "Shadcn UI", "Prisma"],
     shortDesc:
-      "Created a complete Full Stack SAAS application using the latest Modern Framework called NextJs 14.",
-    date: "Jan 2024",
-    Github: "https://github.com/avayyyyyyy/abhi-saas",
-    LiveLink: "https://note-nest-avay.vercel.app/",
+      "Your all-in-one solution for efficiently creating some cool custom back case for your iPhone.",
+    date: "May 2024",
+    Github: "https://github.com/avayyyyyyy/ApeArmor",
+    LiveLink: "https://ape-armor.vercel.app/",
   },
+
   {
     image: "https://utfs.io/f/b199c915-585e-4897-a7a9-5b5612e499dd-zihdxl.webp",
     name: "Tweet Craft - AI Tweet Generator",
@@ -67,6 +58,17 @@ const data = [
     date: "May 2024",
     Github: "https://github.com/avayyyyyyy/tweet-craft",
     LiveLink: "https://tweet-craft-iota.vercel.app/",
+  },
+  {
+    image: "https://utfs.io/f/4b474f0e-382b-4ef0-aa9e-c1571a43daaf-q2nukk.webp",
+    name: "Note Nest - Notes Taking App",
+    trending: true,
+    techStack: ["NextJS", "Typescript", "Prisma", "Shadcn UI", "KindeAuth"],
+    shortDesc:
+      "Created a complete Full Stack SAAS application using the latest Modern Framework called NextJs 14.",
+    date: "Jan 2024",
+    Github: "https://github.com/avayyyyyyy/abhi-saas",
+    LiveLink: "https://note-nest-avay.vercel.app/",
   },
 ];
 

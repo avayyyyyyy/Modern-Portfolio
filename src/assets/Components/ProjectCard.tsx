@@ -17,7 +17,7 @@ function ProjectCard({
 }) {
   return (
     <>
-      <div className="max-w-sm mb-10 hover:shadow-lg  flex flex-col justify-between mx-auto  border border-gray-300 duration-100 rounded-lg py-4 px-3">
+      <div className="max-w-sm mb-10 hover:shadow-md  flex flex-col justify-between mx-auto  border border-gray-200 duration-100 rounded-md py-4 px-3">
         <div>
           <div>
             <img className="rounded-lg" src={image} alt="" />
@@ -35,17 +35,11 @@ function ProjectCard({
                 </span>
               </AnimatedGradientText>
             )}
-            <div className="font-semibold text-sm mt-2 ">{name}</div>
+            <div className="font-semibold text-sm mt-2 ">{name}.</div>
           </div>
-          <div className="text-xs text-zinc-600 mb-2 mt-1">
-            {date} - Present
-          </div>
+          <div className="text-xs text-zinc-600 mb-2 mt-1">{date}</div>
           <div className="text-xs text-zinc-500">
-            {shortDesc.length > 100 ? (
-              <div>{shortDesc.split("").splice(0, 111).join("")}...</div>
-            ) : (
-              <div>{shortDesc}</div>
-            )}
+            <div>{shortDesc}</div>
           </div>
         </div>
         <div>

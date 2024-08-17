@@ -2,7 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import Meteors from "./magicui/meteors";
 import ShimmerButton from "./magicui/shimmer-button";
-// import RadialGradient from "../Components/magicui/radial-gradient";
+import { BiClipboard } from "react-icons/bi";
+import { toast } from "sonner";
+import { DiVim } from "react-icons/di";
 
 const Introduction = () => {
   const sliderVariants: any = {
@@ -51,6 +53,25 @@ const Introduction = () => {
           freelancing to design seamless digital products ❤️
         </p>
       </div>
+      <a
+        data-tooltip-id="my-tooltip"
+        data-tooltip-content="Run in your terminal"
+        data-tooltip-variant="dark"
+      >
+        <div
+          onClick={() => {
+            navigator.clipboard.writeText("npx shubhlovescode");
+            toast(
+              <div className="bg-green-300 border-green-700 p-2 text-sm w-full rounded-md text-green-700 border">
+                Command Copied To Clipboard 🎉
+              </div>
+            );
+          }}
+          className="text-xs hover:cursor-pointer hover:shadow-md duration-100 border px-2 py-1 rounded-full flex items-center"
+        >
+          npx shubhlovescode <BiClipboard className="ml-1" />
+        </div>
+      </a>
       <div className="flex justify-between items-center gap-[10px]">
         <a
           href="https://linkedin.com/in/shubhcodes"

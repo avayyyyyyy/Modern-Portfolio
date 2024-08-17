@@ -5,6 +5,9 @@ import ShimmerButton from "./magicui/shimmer-button";
 import { BiClipboard } from "react-icons/bi";
 import { toast } from "sonner";
 import { DiVim } from "react-icons/di";
+import { LiaLinkedin } from "react-icons/lia";
+import { PiGithubLogo, PiLinkedinLogo, PiTwitterLogo } from "react-icons/pi";
+import { RiTwitterXLine } from "react-icons/ri";
 
 const Introduction = () => {
   const sliderVariants: any = {
@@ -25,13 +28,12 @@ const Introduction = () => {
   return (
     <div
       id="home"
-      className="w-full relative overflow-x-hidden  m-auto gap-9 py-11 lg:mt-0 lg:h-screen  h-[90vh] flex flex-col justify-center items-center  bg-white"
+      className="w-full relative overflow-x-hidden m-auto gap-9 py-11 lg:mt-0 lg:h-screen  h-[90vh] flex flex-col justify-center items-center  bg-white"
     >
       <Meteors number={30} />
-      {/* <RadialGradient /> */}
 
       <div className="z-40">
-        <div className="flex flex-col gap-9 text-center">
+        <div className="flex flex-col gap-5 text-center">
           <h1 className="text-[#6C6C6C] lg:mt-7 text-base md:textl lg:text-xl">
             Hello there! 👋 I'm{" "}
             <span className="font-bold text-black">Shubhankit Jain</span> and
@@ -48,7 +50,7 @@ const Introduction = () => {
         </div>
       </div>
       <div>
-        <p className="w-[40vh] lg:w-[50vw] text-center text-sm  px-4">
+        <p className="w-[40vh] lg:w-[50vw] text-center text-sm px-4">
           Passionate about crafting user-friendly AI websites & solutions, while
           freelancing to design seamless digital products ❤️
         </p>
@@ -57,6 +59,7 @@ const Introduction = () => {
         data-tooltip-id="my-tooltip"
         data-tooltip-content="Run in your terminal"
         data-tooltip-variant="dark"
+        className="hidden md:block"
       >
         <div
           onClick={() => {
@@ -74,15 +77,51 @@ const Introduction = () => {
       </a>
       <div className="flex justify-between items-center gap-[10px]">
         <a
-          href="https://linkedin.com/in/shubhcodes"
-          rel="noreferrer"
-          target="_blank"
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Linkedin"
+          data-tooltip-variant="dark"
         >
-          <ShimmerButton className="shadow-2xl  ">
-            <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-              Let's Connect! 🚀
-            </span>
-          </ShimmerButton>
+          <a
+            href="https://linkedin.com/in/shubhcodes"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <ShimmerButton className="shadow-2xl  ">
+              <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+                <PiLinkedinLogo size={30} />
+              </span>
+            </ShimmerButton>
+          </a>
+        </a>
+        <a
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Github"
+          data-tooltip-variant="dark"
+        >
+          <a
+            href="https://github.com/avayyyyyyy"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <ShimmerButton className="shadow-2xl  ">
+              <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+                <PiGithubLogo size={30} />
+              </span>
+            </ShimmerButton>
+          </a>
+        </a>
+        <a
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Twitter"
+          data-tooltip-variant="dark"
+        >
+          <a href="https://x.com/shubhcodes" rel="noreferrer" target="_blank">
+            <ShimmerButton className="shadow-2xl  ">
+              <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+                <RiTwitterXLine size={30} />
+              </span>
+            </ShimmerButton>
+          </a>
         </a>
       </div>
       <div className="absolute z-10 h-fit text-6xl lg:text-9xl lg:w-fit select-none text-zinc-100 bottom-0 font-bold">

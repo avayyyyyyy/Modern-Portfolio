@@ -74,7 +74,7 @@ const data = [
 
 function ProjectsNew() {
   return (
-    <div className="lg:max-w-[60vw] max-w-[80vw] mb-1 lg:mb-20 ">
+    <div className="lg:max-w-[60vw] max-w-[80vw] mx-auto mb-1 lg:mb-20 ">
       <div className="flex flex-col items-center mb-10  justify-center">
         <div className="text-sm px-3 py-1  w-fit bg-zinc-200 rounded-md mb-4  text-zinc-800">
           My Projects

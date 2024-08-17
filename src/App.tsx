@@ -1,21 +1,33 @@
 import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Introduction from "./assets/Components/Introduction";
-import { BrowserRouter } from "react-router-dom";
 import TextReveal from "./assets/Components/TextReveal";
 import ProjectsNew from "./assets/Components/ProjectsNew";
 import ResumeSection from "./assets/Components/ResumeSection";
+import Resume from "./assets/Components/Resume";
+
+const Home = () => {
+  return (
+    <div>
+      <Introduction />
+      <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
+      <TextReveal />
+      <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
+      <ProjectsNew />
+      <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
+      <ResumeSection />
+    </div>
+  );
+};
 
 const App = () => {
   return (
-    <div className="flex flex-col items-center justify-center m-auto">
+    <div className="flex flex-col items-center justify-center mx-auto">
       <BrowserRouter>
-        <Introduction />
-        <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
-        <TextReveal />
-        <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
-        <ProjectsNew />
-        <div className="bg-zinc-200 h-[2px] w-[100vw] my-10 " />
-        <ResumeSection />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
       </BrowserRouter>
     </div>
   );

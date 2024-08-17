@@ -4,9 +4,7 @@ import Meteors from "./magicui/meteors";
 import ShimmerButton from "./magicui/shimmer-button";
 import { BiClipboard } from "react-icons/bi";
 import { toast } from "sonner";
-import { DiVim } from "react-icons/di";
-import { LiaLinkedin } from "react-icons/lia";
-import { PiGithubLogo, PiLinkedinLogo, PiTwitterLogo } from "react-icons/pi";
+import { PiGithubLogo, PiLinkedinLogo } from "react-icons/pi";
 import { RiTwitterXLine } from "react-icons/ri";
 
 const Introduction = () => {

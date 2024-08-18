@@ -61,7 +61,7 @@ const Introduction = () => {
       >
         <div
           onClick={() => {
-            navigator.clipboard.writeText("npx shubhlovescode");
+            navigator.clipboard.writeText("npx shubhcodes");
             toast(
               <div className="bg-green-300 border-green-700 p-2 h-full text-sm w-full rounded-md text-green-700 border">
                 Command Copied To Clipboard 🎉

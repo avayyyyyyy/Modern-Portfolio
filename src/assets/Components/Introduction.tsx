@@ -70,7 +70,7 @@ const Introduction = () => {
           }}
           className="text-xs hover:cursor-pointer hover:shadow-md duration-100 border px-2 py-1 rounded-full flex items-center"
         >
-          npx shubhlovescode <BiClipboard className="ml-1" />
+          npx shubhcodes <BiClipboard className="ml-1" />
         </div>
       </a>
       <div className="flex justify-between items-center gap-[10px]">

@@ -7,7 +7,7 @@ const Resume = () => {
 
   useEffect(() => {
     window.location.href =
-      "https://drive.google.com/file/d/1-Wd7ckgj8H6eHfQBTi8rDSgEkI1QRizv";
+      "https://drive.google.com/file/d/1RDYuPDlHVpZJaFOwhMiVuzo5KM_KbqE0";
   }, [navigate]);
 
   return (
